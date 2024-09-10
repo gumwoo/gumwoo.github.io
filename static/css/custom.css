@@ -10,4 +10,11 @@ h1 {
 .navbar {
     background-color: #343a40;
 }
+.navbar {
+    height: auto; /* 자동으로 높이를 설정 */
+    padding: 0.5rem 1rem; /* 상하 0.5rem, 좌우 1rem 패딩 */
+}
+body {
+    margin-top: 0; /* 상단 여백 제거 */
+}
 
