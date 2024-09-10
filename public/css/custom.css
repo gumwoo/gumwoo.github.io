@@ -1,13 +1,13 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    color: #007bff;
+}
+
 .navbar {
-    background-color: #f8f9fa; /* 배경색을 유지 */
-    padding: 10px 20px; /* 패딩을 줄여서 상단바 높이 조절 */
+    background-color: #343a40;
 }
 
-.navbar-brand {
-    font-size: 1.5rem; /* 로고(브랜드) 크기 */
-}
-
-.navbar-nav .nav-link {
-    font-size: 1rem; /* 네비게이션 링크의 폰트 크기 조정 */
-    padding: 8px 15px; /* 네비게이션 항목 간의 간격 줄이기 */
-}
