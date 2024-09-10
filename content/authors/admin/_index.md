@@ -1,17 +1,10 @@
 ---
 # Display name
-title: 吳健雄
-
-# Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+title: 강건우
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
-
-# Status emoji
-status:
-  icon: ☕️
+first_name: Kang
+last_name: gunwoo
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,93 +13,38 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: 전북대학교 통계학과
+    url: https://stat.jbnu.ac.kr/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:rkdrjsdn1000@naver.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
   - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://www.instagram.com/_gunn__oo__
   - icon: brands/github
-    url: https://github.com/gcushen
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://github.com/gumwoo
+  - icon: at-symbol
+    url: https://velog.io/@_gunnn_oo__
+    label: Velog
+  - icon: at-symbol
+    url: https://blog.naver.com/gunnn___
+    label: Naver Blog
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Backend Development
+  - AI
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-
+  - area: 통계학, 컴퓨터 공학
+    institution: 전북대학교
+    date_start: 2020-03-02
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
@@ -116,14 +54,39 @@ skills:
         description: ''
         percent: 80
         icon: code-bracket
-      - name: Data Science
+      - name: R
         description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
+        percent: 70
+        icon: code-bracket
+      - name: Java
+        description: ''
+        percent: 65
+        icon: code-bracket
+      - name: JavaScript
+        description: ''
+        percent: 60
+        icon: code-bracket
+      - name: HTML/CSS
+        description: ''
+        percent: 70
+        icon: code-bracket
+      - name: SQL (Oracle)
+        description: ''
+        percent: 50
+        icon: circle-stack
+      - name: C/C++
+        description: ''
+        percent: 55
+        icon: code-bracket
+      - name: React
+        description: ''
+        percent: 50
+        icon: react
+      - name: Firebase
         description: ''
         percent: 40
-        icon: circle-stack
+        icon: firebase
+
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
@@ -140,47 +103,62 @@ skills:
         description: ''
         percent: 80
         icon: camera
-
 languages:
-  - name: English
-    percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: Python
+    percent: 80
+  - name: R
+    percent: 70
+  - name: Java
+    percent: 65
+  - name: JavaScript
+    percent: 60
+  - name: HTML/CSS
+    percent: 70
+  - name: SQL (Oracle)
+    percent: 50
+  - name: C/C++
+    percent: 55
+  - name: React
+    percent: 50
+  - name: Firebase
+    percent: 40
 
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
+
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
+  - title: 제 1회 오픈소스 아이디어 해커톤 최우수상
+    url: ''
+    date: '2023-12-03'
+    awarder: 전북대학교
+    icon: trophy
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
+      오픈소스 기반 프로젝트에서 창의적인 아이디어를 제시하여 팀과 함께 최우수상을 수상하였습니다.
+
+  - title: SDGs(지속가능한 발전 목표) 프레젠테이션 우수상
+    url: ''
+    date: '2023-12-21'
+    awarder: 전북대학교
+    icon: presentation
     summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
+      지속가능한 발전 목표에 대한 주제를 가지고 발표하여 우수한 평가를 받아 우수상을 수상하였습니다.
+
+  - title: 비교과 프로그램 개발 공모전 우수상
+    url: ''
+    date: '2024-08-05'
+    awarder: 전북대학교
+    icon: code
     summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
----
+      학업 외 비교과 프로그램 개발 공모전에서 독창적인 아이디어를 통해 우수상을 수상하였습니다.
+
+certifications:
+  - title: SQLD (SQL Developer)
+    date: '2022-11-15'
+    icon: database
+  - title: 리눅스 마스터 2급
+    date: '2021-06-20'
+    icon: linux
+
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+전북대학교에서 통계학과 컴퓨터공학을 복수전공 중입니다. 현재 학점은 4점대를 유지중이고, 데이터 분석, 프로그래밍, 데이터베이스에 중점을 두고 공부하고 있으며, 이를 통해 백엔드 개발 및 인공지능에 대한 기초를 다지고 있습니다. 
+Python과 R, JavaScript를 사용하여 통계 데이터 분석과 웹 개발관련 프로젝트를 수행한 경험이 있습니다.
