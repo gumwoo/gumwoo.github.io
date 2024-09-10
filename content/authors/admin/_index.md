@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Introduction gunwoo
+title: 강건우
 
 # Full name (for SEO)
 first_name: Kang
