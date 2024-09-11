@@ -8,10 +8,10 @@ main:
     url: /
     weight: 10
   - name: 자격증
-    url: /자격증
+    url: /#자격증
     weight: 11
   - name: 수상경력
-    url: /수상경력
+    url: /#수상경력
     weight: 12
   - name: 기술 스택
     url: 기술 스택/
