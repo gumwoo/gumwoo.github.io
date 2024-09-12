@@ -6,7 +6,7 @@ publication_types: ["1"]
 icon: database
 author: "한국데이터산업진흥원"
 banner:
-  image: "media/sqld.png"  # 이미지 경로
+  image: "static/media/SQLD.png"  # 이미지 경로
   caption: "SQL Developer 자격증"
 ---
 
