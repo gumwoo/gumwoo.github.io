@@ -5,16 +5,16 @@
 
 main:
   - name: Introduction
-    url: /
+    url: /authors/
     weight: 10
   - name: Certification
-    url: /Certification
+    url: /publication/
     weight: 11
-  - name: ward-winning
-    url: /award-winning
+  - name: Award-winning
+    url: /event/
     weight: 12
   - name: Technical Stack
-    url: /technical-stack
+    url: /post/
     weight: 13
   - name: Experience
     url: experience/
