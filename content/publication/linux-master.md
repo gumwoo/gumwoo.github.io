@@ -6,7 +6,7 @@ publication_types: ["1"]
 icon: linux
 author: "한국정보통신기술협회"
 banner:
-  image: "static/media/linux-master.png"  # 이미지 경로
+  image: "linux-master.png"  # 이미지 경로
   caption: "리눅스 마스터 2급"
 ---
 
