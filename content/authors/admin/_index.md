@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 강건우
+title: 'Introduction'
 
 # Full name (for SEO)
 first_name: Kang
