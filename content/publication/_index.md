@@ -1,5 +1,5 @@
 ---
-title: Certification
+title: ''
 cms_exclude: true
 
 # View.
