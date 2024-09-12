@@ -4,18 +4,24 @@
   #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: 소개
+  - name: Bio
     url: /
     weight: 10
-  - name: 자격증
-    url: /#자격증
+  - name: Papers
+    url: /#papers
     weight: 11
-  - name: 수상경력
-    url: /#수상경력
+  - name: Talks
+    url: /#talks
     weight: 12
-  - name: 기술 스택
-    url: 기술 스택/
+  - name: News
+    url: /#news
     weight: 13
-  - name: 경력 및 경험
-    url: 경력 및 경험/
+  - name: Experience
+    url: experience/
     weight: 20
+  - name: Projects
+    url: projects/
+    weight: 30
+  - name: Teaching
+    url: teaching/
+    weight: 40
