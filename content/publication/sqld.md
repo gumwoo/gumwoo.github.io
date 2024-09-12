@@ -5,6 +5,9 @@ type: publication
 publication_types: ["1"]
 icon: database
 author: "한국데이터산업진흥원"
+banner:
+  image: "media/sqld.png"  # 이미지 경로
+  caption: "SQL Developer 자격증"
 ---
 
 SQL개발자(SQLD) 자격증은 데이터베이스 설계 및 SQL 작성 능력을 인증하는 자격증입니다.
