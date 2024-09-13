@@ -158,9 +158,16 @@ certifications:
     icon: linux
 
 ---
-## About Me
+ <!-- About Me -->
 
-<span style="font-size: 24px;">**안녕하세요!**</span>  
-<span style="font-size: 24px;">**제 이름은 강건우입니다.**</span>  
-<span style="font-size: 24px;">**소통하는 개발자가 되고 싶습니다.**</span>
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <h1>안녕하세요!</h1>
+    <h2>제 이름은 강건우입니다.</h2>
+    <h2>소통하는 개발자가 되고 싶습니다.</h2>
+  </div>
+  <div style="flex: 1;">
+    <img src="/authors/admin/avatar1.png" alt="강건우" style="border-radius: 50%; width: 150px;">
+  </div>
+</div>
 
