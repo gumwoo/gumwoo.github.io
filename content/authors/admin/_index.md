@@ -167,7 +167,7 @@ certifications:
     <h2>소통하는 개발자가 되고 싶습니다.</h2>
   </div>
   <div style="flex: 1;">
-    <img src="/authors/admin/avatar1.png" alt="강건우" style="border-radius: 50%; width: 150px;">
+    <img src="{{ .RelPermalink }}/avatar1.png" alt="강건우" style="border-radius: 50%; width: 150px;">
   </div>
 </div>
 
