@@ -160,6 +160,7 @@ certifications:
 ---
 ## About Me
 
-**안녕하세요!**
-**제 이름은 강건우입니다.** 
-**소통하는 개발자가 되고 싶습니다.**
+<span style="font-size: 24px;">**안녕하세요!**</span>  
+<span style="font-size: 24px;">**제 이름은 강건우입니다.**</span>  
+<span style="font-size: 24px;">**소통하는 개발자가 되고 싶습니다.**</span>
+
