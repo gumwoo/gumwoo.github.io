@@ -12,6 +12,7 @@ featured: true
 # Featured image 설정
 image:
   caption: 리눅스 마스터 2급 자격증
+  filename: featured.png  # 이미지 파일명
   focal_point: ""
   preview_only: false
 
