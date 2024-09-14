@@ -8,7 +8,8 @@ appearance:
   mode: system
   color: emerald
 images:
-  profile_image: "/workspaces/gumwoo.github.io/content/authors/admin/avatar1.png"  # 여기에 이미지 경로를 입력하세요
+  profile_image: "/images/avatar1.png"
+
 # SEO
 marketing:
   seo:

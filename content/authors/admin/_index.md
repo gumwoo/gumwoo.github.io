@@ -166,6 +166,6 @@ certifications:
     <h2>제 이름은 강건우입니다.</h2>
     <h2>소통하는 개발자가 되고 싶습니다.</h2>
   </div>
-  <img src="/workspaces/gumwoo.github.io/content/authors/admin/avatar1.png" alt="강건우" style="border-radius: 30%; width: 130px; float: right;">
+  <img src="/images/avatar1.png" alt="강건우" style="border-radius: 30%; width: 130px; float: right;">
 </div>
 
