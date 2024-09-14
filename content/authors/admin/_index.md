@@ -129,7 +129,7 @@ awards:
     url: ''
     date: '2023-12-03'
     awarder: 전북대학교
-    icon: trophy
+    icon: ''
     summary: |
       오픈소스 기반 프로젝트에서 창의적인 아이디어를 제시하여 팀과 함께 최우수상을 수상하였습니다.
 
@@ -137,7 +137,7 @@ awards:
     url: ''
     date: '2023-12-21'
     awarder: 전북대학교
-    icon: presentation
+    icon: ''
     summary: |
       지속가능한 발전 목표에 대한 주제를 가지고 발표하여 우수한 평가를 받아 우수상을 수상하였습니다.
 
@@ -145,7 +145,7 @@ awards:
     url: ''
     date: '2024-08-05'
     awarder: 전북대학교
-    icon: code
+    icon: ''
     summary: |
       학업 외 비교과 프로그램 개발 공모전에서 독창적인 아이디어를 통해 우수상을 수상하였습니다.
 
