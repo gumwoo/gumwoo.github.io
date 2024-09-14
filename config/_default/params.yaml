@@ -12,7 +12,7 @@ images:
 
 # params.yaml 또는 hugo.yaml 파일에서 추가
 header:
-  favicon: "favicon.png"  # static 폴더에 위치한 favicon 파일 경로를 입력
+  favicon: 'favicon.png'  # static 폴더에 위치한 favicon 파일 경로를 입력
 
 # SEO
 marketing:
@@ -41,7 +41,7 @@ header:
     show_search: true
     show_theme_chooser: true
     logo:
-      text: "Introduction"
+      text: "PORTFOLIO"
 
 # Site footer
 footer:
