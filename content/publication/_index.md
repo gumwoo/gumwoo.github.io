@@ -7,14 +7,14 @@ view: article-grid
 
 # Optional header image (relative to `static/media/` folder).
 banner:
-  image: '/images/backg.png'
+  image: '/images/backgr.png'
   caption: ''
   background_style: full
 ---
 
 <style>
 body {
-  background-image: url('/images/backg.png');
+  background-image: url('/images/backgr.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
