@@ -1,2 +1,20 @@
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+<ul class="nav">
+    {{ range .Site.Menus.main }}
+      <li class="nav-item {{ if .HasChildren }}dropdown{{ end }}">
+        <a class="nav-link {{ if .HasChildren }}dropdown-toggle{{ end }}" href="{{ .URL }}" {{ if .HasChildren }}data-bs-toggle="dropdown"{{ end }}>
+          {{ .Name }}
+        </a>
+        {{ if .HasChildren }}
+          <ul class="dropdown-menu">
+            {{ range .Children }}
+              <li><a class="dropdown-item" href="{{ .URL }}">{{ .Name }}</a></li>
+            {{ end }}
+          </ul>
+        {{ end }}
+      </li>
+    {{ end }}
+  </ul>
+  
