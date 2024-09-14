@@ -10,6 +10,10 @@ appearance:
 images:
   profile_image: "/images/avatar1.png"
 
+# params.yaml 또는 hugo.yaml 파일에서 추가
+header:
+  favicon: "favicon.png"  # static 폴더에 위치한 favicon 파일 경로를 입력
+
 # SEO
 marketing:
   seo:
