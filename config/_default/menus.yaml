@@ -8,7 +8,7 @@ main:
     url: /
     weight: 10
   - name: Certification
-    url: "#"
+    url: /publication/
     weight: 11
     identifier: certification
     hasChildren: true
