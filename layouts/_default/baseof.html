@@ -4,10 +4,10 @@
   {{ partial "head.html" . }}  <!-- head.html 파일을 삽입 -->
 <body>
 
-  <!-- 여기서 공통 헤더, 메뉴 등을 추가할 수 있음 -->
+  <!-- 공통 헤더 및 메뉴 추가 -->
   <header>
-    <nav>
-      <ul class="nav">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <ul class="navbar-nav flex-row">
         {{ range .Site.Menus.main }}
           <li class="nav-item {{ if .HasChildren }}dropdown{{ end }}">
             <a class="nav-link {{ if .HasChildren }}dropdown-toggle{{ end }}" href="{{ .URL }}" {{ if .HasChildren }}data-bs-toggle="dropdown"{{ end }}>
@@ -31,7 +31,7 @@
     {{ block "main" . }}{{ .Content }}{{ end }}
   </main>
 
-  <!-- 여기서 공통 푸터를 추가할 수 있음 -->
+  <!-- 공통 푸터 추가 -->
   <footer>
     <p>© {{ now.Format "2006" }} {{ .Site.Title }}. All rights reserved.</p>
   </footer>
