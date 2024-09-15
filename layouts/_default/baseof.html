@@ -1,9 +1,40 @@
+<!-- layouts/_default/baseof.html -->
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    {{ partial "head.html" . }}
-  </head>
-  <body>
-    {{ block "main" . }}{{ end }}
-  </body>
+<html lang="{{ .Lang }}">
+  {{ partial "head.html" . }}  <!-- head.html 파일을 삽입 -->
+<body>
+
+  <!-- 여기서 공통 헤더, 메뉴 등을 추가할 수 있음 -->
+  <header>
+    <nav>
+      <ul class="nav">
+        {{ range .Site.Menus.main }}
+          <li class="nav-item {{ if .HasChildren }}dropdown{{ end }}">
+            <a class="nav-link {{ if .HasChildren }}dropdown-toggle{{ end }}" href="{{ .URL }}" {{ if .HasChildren }}data-bs-toggle="dropdown"{{ end }}>
+              {{ .Name }}
+            </a>
+            {{ if .HasChildren }}
+              <ul class="dropdown-menu">
+                {{ range .Children }}
+                  <li><a class="dropdown-item" href="{{ .URL }}">{{ .Name }}</a></li>
+                {{ end }}
+              </ul>
+            {{ end }}
+          </li>
+        {{ end }}
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 페이지 콘텐츠 삽입 -->
+  <main>
+    {{ block "main" . }}{{ .Content }}{{ end }}
+  </main>
+
+  <!-- 여기서 공통 푸터를 추가할 수 있음 -->
+  <footer>
+    <p>© {{ now.Format "2006" }} {{ .Site.Title }}. All rights reserved.</p>
+  </footer>
+
+</body>
 </html>
