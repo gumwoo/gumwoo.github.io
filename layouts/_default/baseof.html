@@ -4,24 +4,17 @@
   {{ partial "head.html" . }}  <!-- head.html 파일을 삽입 -->
 <body>
 
-  <!-- 공통 헤더 및 메뉴 추가 -->
+  <!-- 네비게이션 바 추가 -->
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <ul class="navbar-nav flex-row">
-        {{ range .Site.Menus.main }}
-          <li class="nav-item {{ if .HasChildren }}dropdown{{ end }}">
-            <a class="nav-link {{ if .HasChildren }}dropdown-toggle{{ end }}" href="{{ .URL }}" {{ if .HasChildren }}data-bs-toggle="dropdown"{{ end }}>
-              {{ .Name }}
-            </a>
-            {{ if .HasChildren }}
-              <ul class="dropdown-menu">
-                {{ range .Children }}
-                  <li><a class="dropdown-item" href="{{ .URL }}">{{ .Name }}</a></li>
-                {{ end }}
-              </ul>
-            {{ end }}
-          </li>
-        {{ end }}
+        <li class="nav-item"><a class="nav-link" href="/">Introduction</a></li>
+        <li class="nav-item"><a class="nav-link" href="/publication/">Certification</a></li>
+        <li class="nav-item"><a class="nav-link" href="/event/">Award-winning</a></li>
+        <li class="nav-item"><a class="nav-link" href="/post/">Technical Stack</a></li>
+        <li class="nav-item"><a class="nav-link" href="experience/">Experience</a></li>
+        <li class="nav-item"><a class="nav-link" href="projects/">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="teaching/">Teaching</a></li>
       </ul>
     </nav>
   </header>
@@ -31,10 +24,15 @@
     {{ block "main" . }}{{ .Content }}{{ end }}
   </main>
 
-  <!-- 공통 푸터 추가 -->
+  <!-- 푸터 -->
   <footer>
     <p>© {{ now.Format "2006" }} {{ .Site.Title }}. All rights reserved.</p>
   </footer>
+
+  <!-- Bootstrap JS 추가 -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </body>
 </html>
