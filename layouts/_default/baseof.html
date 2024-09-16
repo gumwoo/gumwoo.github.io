@@ -12,16 +12,72 @@
         <li class="nav-item"><a class="nav-link" href="/publication/">Certification</a></li>
         <li class="nav-item"><a class="nav-link" href="/event/">Award-winning</a></li>
         <li class="nav-item"><a class="nav-link" href="/post/">Technical Stack</a></li>
-        <li class="nav-item"><a class="nav-link" href="experience/">Experience</a></li>
-        <li class="nav-item"><a class="nav-link" href="projects/">Projects</a></li>
-        <li class="nav-item"><a class="nav-link" href="teaching/">Teaching</a></li>
+        <li class="nav-item"><a class="nav-link" href="/experience/">Experience</a></li>
+        <li class="nav-item"><a class="nav-link" href="/projects/">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="/teaching/">Teaching</a></li>
       </ul>
+
+      <!-- 돋보기 (검색 기능) -->
+      <button aria-label="search" class="text-black hover:text-primary inline-block px-3 text-xl dark:text-white" id="search_toggle">
+        <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512" fill="currentColor">
+          <path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0s208 93.1 208 208zM208 352a144 144 0 100-288 144 144 0 100 288z"></path>
+        </svg>
+      </button>
+
+      <!-- 다크모드/라이트모드 전환 버튼 -->
+      <button class="theme-toggle mt-1" accesskey="t" title="appearance">
+        <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="dark:hidden">
+          <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+        </svg>
+        <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="dark:block [&:not(dark)]:hidden">
+          <circle cx="12" cy="12" r="5"></circle>
+          <line x1="12" y1="1" x2="12" y2="3"></line>
+          <line x1="12" y1="21" x2="12" y2="23"></line>
+        </svg>
+      </button>
+
+      <!-- 다국어 선택 -->
+      <div class="language-switcher">
+        {{ range .Site.Languages }}
+          <a href="{{ .RelPermalink }}" class="nav-link">{{ .LanguageName }}</a>
+        {{ end }}
+      </div>
     </nav>
   </header>
 
   <!-- 페이지 콘텐츠 삽입 -->
   <main>
     {{ block "main" . }}{{ .Content }}{{ end }}
+     <!-- 여기에 추가된 프로필 및 소개 섹션 -->
+  <section id="section-resume-biography-3" class="relative hbb-section blox-resume-biography-3 dark" style="padding:6rem 0">
+    <div class="home-section-bg" style="background-color:#4682b4"></div>
+    <div class="resume-biography px-3 flex flex-col md:flex-row justify-center items-center gap-12">
+      <div class="flex-none m-w-[130px] mx-auto md:mx-0 text-center">
+        <div id="profile" class="flex justify-center items-center flex-col">
+          <div class="avatar-wrapper mt-10">
+            <img class="avatar rounded-full bg-white dark:bg-gray-800 p-1" src="/author/avatar.png" alt="강건우" width="150" height="150">
+          </div>
+          <div class="portrait-title dark:text-white">
+            <div class="text-3xl font-bold mb-2 mt-6">강건우</div>
+            <h3 class="font-semibold mb-1">Student</h3>
+            <div class="mb-2"><a href="https://stat.jbnu.ac.kr/" target="_blank" rel="noopener"><div>전북대학교 통계학과</div></a></div>
+          </div>
+          <ul class="network-icon dark:text-zinc-100 flex justify-center">
+            <!-- 소셜 링크 추가 -->
+          </ul>
+        </div>
+      </div>
+      <div class="flex-auto max-w-prose md:mt-12 text-center">
+        <div class="pt-2 justify-content-center prose prose-slate dark:prose-invert">
+          <div class="bio-text">
+            <h1>안녕하세요!</h1>
+            <h2>제 이름은 강건우입니다.</h2>
+            <h2>소통하는 개발자가 되고 싶습니다.</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   </main>
 
   <!-- 푸터 -->
@@ -36,3 +92,4 @@
 
 </body>
 </html>
+
