@@ -3,11 +3,6 @@
 <html lang="{{ .Lang }}">
   {{ partial "head.html" . }}  <!-- head.html 파일을 삽입 -->
 <body>
-  <!-- 페이지 콘텐츠 삽입 -->
-  <main>
-    {{ block "main" . }}{{ .Content }}{{ end }}
-  </main>
-
   <!-- Bootstrap JS 추가 -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
