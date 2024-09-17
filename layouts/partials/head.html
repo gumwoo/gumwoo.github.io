@@ -14,8 +14,7 @@
   <link rel="stylesheet" href="/dist/wc.min.css">
 
   <!-- Favicon -->
-  <link rel="shortcut icon" href="{{ "/favicon.ico" | absURL }}" type="image/x-icon">
-  <link rel="icon" href="{{ "/favicon.ico" | absURL }}" type="image/x-icon">
+  <link rel="icon" href="{{ .Site.Params.favicon }}" type="image/x-icon">
 
   <!-- 타이틀 -->
   <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
