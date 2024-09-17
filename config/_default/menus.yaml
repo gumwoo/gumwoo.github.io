@@ -18,10 +18,10 @@ main:
       - name: SQLD
         url: /publication/sqld/
   - name: Award-winning
-    url: /event/
+    url: event/
     weight: 12
   - name: Technical Stack
-    url: /post/
+    url: post/
     weight: 13
   - name: Experience
     url: experience/
