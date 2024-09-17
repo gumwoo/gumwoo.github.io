@@ -3,7 +3,7 @@
   #     desired widget in your `content/home/` folder.
   #   The weight parameter defines the order that the links will appear in.
 
-en:
+menus:
   main:
     - name: Introduction
       url: /en/
@@ -27,8 +27,7 @@ en:
       url: /en/teaching/
       weight: 40
 
-ko:
-  main:
+  ko:
     - name: 소개
       url: /ko/
       weight: 10
