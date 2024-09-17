@@ -3,50 +3,10 @@
 <html lang="{{ .Lang }}">
   {{ partial "head.html" . }}  <!-- head.html 파일을 삽입 -->
 <body>
-
-  <!-- 네비게이션 바 추가 -->
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <ul class="navbar-nav flex-row">
-        <li class="nav-item"><a class="nav-link" href="/">Introduction</a></li>
-        <li class="nav-item"><a class="nav-link" href="/publication/">Certification</a></li>
-        <li class="nav-item"><a class="nav-link" href="/event/">Award-winning</a></li>
-        <li class="nav-item"><a class="nav-link" href="/post/">Technical Stack</a></li>
-        <li class="nav-item"><a class="nav-link" href="/experience/">Experience</a></li>
-        <li class="nav-item"><a class="nav-link" href="/projects/">Projects</a></li>
-        <li class="nav-item"><a class="nav-link" href="/teaching/">Teaching</a></li>
-      </ul>
-
-      <!-- 돋보기 (검색 기능) -->
-      <button aria-label="search" class="text-black hover:text-primary inline-block px-3 text-xl dark:text-white" id="search_toggle">
-        <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512" fill="currentColor">
-          <path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0s208 93.1 208 208zM208 352a144 144 0 100-288 144 144 0 100 288z"></path>
-        </svg>
-      </button>
-
-      <!-- 다크모드/라이트모드 전환 버튼 -->
-      <button class="theme-toggle mt-1" accesskey="t" title="appearance">
-        <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="dark:hidden">
-          <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
-        </svg>
-        <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="dark:block [&:not(dark)]:hidden">
-          <circle cx="12" cy="12" r="5"></circle>
-          <line x1="12" y1="1" x2="12" y2="3"></line>
-          <line x1="12" y1="21" x2="12" y2="23"></line>
-        </svg>
-      </button>
-    </nav>
-  </header>
-
   <!-- 페이지 콘텐츠 삽입 -->
   <main>
     {{ block "main" . }}{{ .Content }}{{ end }}
   </main>
-
-  <!-- 푸터 -->
-  <footer>
-    <p>© {{ now.Format "2006" }} {{ .Site.Title }}. All rights reserved.</p>
-  </footer>
 
   <!-- Bootstrap JS 추가 -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
