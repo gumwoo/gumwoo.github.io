@@ -4,24 +4,48 @@
   #   The weight parameter defines the order that the links will appear in.
 
 main:
+  # 영어 페이지로 연결
   - name: Introduction
-    url: /
+    url: /en/    # 영어 페이지로 이동
     weight: 10
   - name: Certification
-    url: /publication/
+    url: /en/publication/
     weight: 11
   - name: Award-winning
-    url: event/
+    url: /en/event/
     weight: 12
   - name: Technical Stack
-    url: post/
+    url: /en/post/
     weight: 13
   - name: Experience
-    url: experience/
+    url: /en/experience/
     weight: 20
   - name: Projects
-    url: projects/
+    url: /en/projects/
     weight: 30
   - name: Teaching
-    url: teaching/
+    url: /en/teaching/
+    weight: 40
+
+  # 한국어 페이지로 연결
+  - name: 소개
+    url: /ko/    # 한국어 페이지로 이동
+    weight: 10
+  - name: 자격증
+    url: /ko/publication/
+    weight: 11
+  - name: 수상 경력
+    url: /ko/event/
+    weight: 12
+  - name: 기술 스택
+    url: /ko/post/
+    weight: 13
+  - name: 경험
+    url: /ko/experience/
+    weight: 20
+  - name: 프로젝트
+    url: /ko/projects/
+    weight: 30
+  - name: 강의
+    url: /ko/teaching/
     weight: 40
