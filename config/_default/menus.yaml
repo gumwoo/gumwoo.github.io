@@ -10,13 +10,6 @@ main:
   - name: Certification
     url: /publication/
     weight: 11
-    identifier: certification
-    hasChildren: true
-    children:
-      - name: 리눅스 마스터 2급
-        url: /publication/linux-master/
-      - name: SQLD
-        url: /publication/sqld/
   - name: Award-winning
     url: event/
     weight: 12
