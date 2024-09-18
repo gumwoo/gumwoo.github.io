@@ -1,13 +1,12 @@
 ---
-title: scikit-learn
+title: github
 date: 2023-10-26
-external_link: https://github.com/scikit-learn/scikit-learn
+external_link: https://github.com/gumwoo
 tags:
-  - Hugo
   - Wowchemy
   - Markdown
 ---
 
-scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.
+GitHub is a space where I share code samples with various projects I have developed.
 
 <!--more-->

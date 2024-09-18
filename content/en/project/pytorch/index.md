@@ -7,6 +7,6 @@ tags:
   - Markdown
 ---
 
-PyTorch is a Python package that provides tensor computation (like NumPy) with strong GPU acceleration.
+The Naver blog covers a variety of projects using Java and R.
 
 <!--more-->

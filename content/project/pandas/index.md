@@ -7,6 +7,6 @@ tags:
   - Markdown
 ---
 
-Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.
+Velog is a blog that records the journey of development and learning.
 
 <!--more-->
