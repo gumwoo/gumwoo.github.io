@@ -24,7 +24,7 @@ en:
       - name: Experience
         url: /en/experience/
         weight: 20
-      - name: Projects
+      - name: Blog
         url: /en/projects/
         weight: 30
       - name: Teaching
@@ -52,7 +52,7 @@ ko:
       - name: 경험
         url: /ko/experience/
         weight: 20
-      - name: 프로젝트
+      - name: 블로그
         url: /ko/projects/
         weight: 30
       - name: 강의
