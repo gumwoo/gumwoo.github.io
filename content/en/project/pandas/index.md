@@ -1,9 +1,8 @@
 ---
-title: Pandas
+title: velog
 date: 2023-10-26
-external_link: https://github.com/pandas-dev/pandas
+external_link: https://velog.io/@_gunnn_oo__/posts
 tags:
-  - Hugo
   - Wowchemy
   - Markdown
 ---
