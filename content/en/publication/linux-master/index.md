@@ -1,5 +1,6 @@
 ---
 title: "리눅스 마스터 2급 자격증"
+lang: en
 authors:
 - admin
 date: "2024-09-07T00:00:00Z"

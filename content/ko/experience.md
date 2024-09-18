@@ -2,7 +2,7 @@
 title: 'Experience'
 date: 2023-10-24
 type: landing
-
+lang: ko
 design:
   spacing: '5rem'
 

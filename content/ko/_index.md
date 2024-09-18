@@ -3,7 +3,7 @@
 title: ""
 date: 2022-10-24
 type: landing
-
+lang: ko
 design:
   # Default section spacing
   spacing: "6rem"

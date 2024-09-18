@@ -1,5 +1,6 @@
 ---
 title: "SQL개발자(SQLD) 자격증"
+lang: ko
 authors:
 - admin
 date: "2024-08-24T00:00:00Z"

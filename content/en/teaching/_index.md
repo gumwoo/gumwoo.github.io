@@ -2,7 +2,7 @@
 title: Teaching
 summary: My courses
 type: landing
-
+lang: en
 cascade:
   - _target:
       kind: page

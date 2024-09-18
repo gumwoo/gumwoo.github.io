@@ -2,7 +2,7 @@
 title: 'technical-stack'
 date: 2023-10-24
 type: landing
-
+lang: en
 design:
   spacing: '5rem'
 

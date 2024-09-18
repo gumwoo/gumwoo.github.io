@@ -1,7 +1,7 @@
 ---
 # Display name
 title: '강건우'
-
+lang: en
 # Full name (for SEO)
 first_name: Kang
 last_name: gunwoo

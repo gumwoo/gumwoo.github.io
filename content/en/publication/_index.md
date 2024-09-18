@@ -1,7 +1,7 @@
 ---
 title: ''
 cms_exclude: true
-
+lang: en
 # View.
 view: article-grid
 
