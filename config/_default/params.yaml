@@ -2,10 +2,6 @@
 # Guide: https://docs.hugoblox.com/tutorial/
 # Documentation: https://docs.hugoblox.com/
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
-# params.yaml 또는 hugo.yaml 파일에서 추가
-params:
-  favicon: favicon.ico  # static 폴더에 위치한 favicon 파일 경로를 입력
-
 # Appearance
 appearance:
   mode: system
