@@ -10,6 +10,10 @@ params:
 appearance:
   mode: system
   color: emerald
+  theme_night: minimal
+  theme_day: minimal
+  font: native
+  font_size: L
 images:
   profile_image: "/images/avatar1.png"
 
@@ -38,8 +42,9 @@ header:
     blox: "navbar"
     fixed_to_top: true
     show_search: true
-    show_theme_chooser: true
-    show_language_chooser: true
+    show_language: true
+    highlight_active_link: false
+    show_day_night: true
     logo:
       text: "PORTFOLIO"
 

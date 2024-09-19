@@ -6,7 +6,8 @@
 en:
   languageName: English
   languageCode: en-us
-  weight: 1  # 낮은 숫자가 우선순위가 더 높음 (영어를 기본으로 설정)
+  contentDir: content/en  # 영어 컨텐츠 폴더 설정
+  weight: 2  # 낮은 숫자가 우선순위가 더 높음 (영어를 기본으로 설정)
   menu:
     main:
       - name: Introduction
@@ -34,7 +35,8 @@ en:
 ko:
   languageName: 한국어
   languageCode: ko-kr
-  weight: 2  # 한국어는 두 번째 언어
+  contentDir: content/ko  # 한국어 컨텐츠 폴더 설정
+  weight: 1  # 한국어는 두 번째 언어
   menu:
     main:
       - name: 소개
