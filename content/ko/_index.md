@@ -48,7 +48,7 @@ sections:
 
         - name: 소셜 미디어
           icon: twitter
-          icon_pack: fas
+          icon_pack: fab  # 브랜드 아이콘으로 변경
           description: <span style="font-size:90%">소셜 미디어 플랫폼과 연동.</span>
 
         - name: 클라우드 컴퓨팅
@@ -58,8 +58,9 @@ sections:
 
         - name: 오픈소스
           icon: github
-          icon_pack: fas
+          icon_pack: fab  # 브랜드 아이콘으로 변경
           description: <span style="font-size:90%">오픈소스 프로젝트에 기여 및 관리.</span>
+
 
   - block: markdown
     content:
