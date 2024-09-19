@@ -26,6 +26,23 @@ sections:
         #   size: cover
         #   position: center
         #   parallax: false
+  - block: features
+    content:
+      title: <span style="font-size:75%">My Interests</span>
+      text: 제가 관심 있는 분야들입니다.<br><br>
+      items:
+        - name: 인공지능(AI)
+          icon: code-branch
+          icon_pack: fas
+          description: <span style="font-size:90%">의료 및 항공우주 분야에서 AI 기술을 활용합니다.</span><br><br>
+        - name: 데이터 분석
+          icon: chart-line
+          icon_pack: fas
+          description: <span style="font-size:90%">데이터 분석을 통한 인사이트 도출.</span><br><br>
+        - name: 웹 개발
+          icon: laptop-code
+          icon_pack: fas
+          description: <span style="font-size:90%">Full-Stack 웹 개발 기술 활용.</span><br><br>
   - block: markdown
     content:
       title: '📚 About me'
