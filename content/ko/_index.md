@@ -42,13 +42,13 @@ sections:
           description: <span style="font-size:90%">데이터 분석을 통한 인사이트 도출.</span>
 
         - name: 웹 개발
-          icon: laptop-code
+          icon: laptop
           icon_pack: fas
           description: <span style="font-size:90%">Full-Stack 웹 개발 기술 활용.</span>
 
         - name: 소셜 미디어
           icon: twitter
-          icon_pack: fab  # 브랜드 아이콘으로 변경
+          icon_pack: fab  
           description: <span style="font-size:90%">소셜 미디어 플랫폼과 연동.</span>
 
         - name: 클라우드 컴퓨팅
@@ -58,7 +58,7 @@ sections:
 
         - name: 오픈소스
           icon: github
-          icon_pack: fab  # 브랜드 아이콘으로 변경
+          icon_pack: fab  
           description: <span style="font-size:90%">오픈소스 프로젝트에 기여 및 관리.</span>
 
 
