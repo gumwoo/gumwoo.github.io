@@ -34,15 +34,33 @@ sections:
         - name: 인공지능(AI)
           icon: code-branch
           icon_pack: fas
-          description: <span style="font-size:90%">의료 및 항공우주 분야에서 AI 기술을 활용합니다.</span><br><br>
+          description: <span style="font-size:90%">의료 및 항공우주 분야에서 AI 기술을 활용합니다.</span>
+
         - name: 데이터 분석
-          icon: chart-line
+          icon: chart-bar
           icon_pack: fas
-          description: <span style="font-size:90%">데이터 분석을 통한 인사이트 도출.</span><br><br>
+          description: <span style="font-size:90%">데이터 분석을 통한 인사이트 도출.</span>
+
         - name: 웹 개발
           icon: laptop-code
           icon_pack: fas
-          description: <span style="font-size:90%">Full-Stack 웹 개발 기술 활용.</span><br><br>
+          description: <span style="font-size:90%">Full-Stack 웹 개발 기술 활용.</span>
+
+        - name: 소셜 미디어
+          icon: twitter
+          icon_pack: fab
+          description: <span style="font-size:90%">소셜 미디어 플랫폼과 연동.</span>
+
+        - name: 클라우드 컴퓨팅
+          icon: cloud
+          icon_pack: fas
+          description: <span style="font-size:90%">클라우드 기술을 통한 데이터 관리.</span>
+
+        - name: 오픈소스
+          icon: github
+          icon_pack: fab
+          description: <span style="font-size:90%">오픈소스 프로젝트에 기여 및 관리.</span>
+
   - block: markdown
     content:
       title: '📚 About me'
