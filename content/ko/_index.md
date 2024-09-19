@@ -34,7 +34,7 @@ sections:
         - name: 인공지능(AI)
           icon: code-branch
           icon_pack: fas
-          description: <span style="font-size:90%">의료 및 항공우주 분야에서 AI 기술을 활용합니다.</span>
+          description: <span style="font-size:90%"> AI 기술을 활용</span>
 
         - name: 데이터 분석
           icon: chart-bar
@@ -59,7 +59,7 @@ sections:
         - name: 오픈소스
           icon: github
           icon_pack: fab  
-          description: <span style="font-size:90%">오픈소스 프로젝트에 기여 및 관리.</span>
+          description: <span style="font-size:90%">오픈소스 프로젝트에 기여</span>
 
 
   - block: markdown
