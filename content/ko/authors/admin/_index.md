@@ -48,9 +48,9 @@ education:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: 기술스택
     items:
-      - name: Python
+      - name: 파이썬
         description: ''
         percent: 80
         icon: code-bracket
@@ -58,11 +58,11 @@ skills:
         description: ''
         percent: 70
         icon: code-bracket
-      - name: Java
+      - name: 자바
         description: ''
         percent: 65
         icon: code-bracket
-      - name: JavaScript
+      - name: 자바스크립트
         description: ''
         percent: 60
         icon: code-bracket
@@ -78,11 +78,11 @@ skills:
         description: ''
         percent: 55
         icon: code-bracket
-      - name: React
+      - name: 리액트
         description: ''
         percent: 50
         icon: react
-      - name: Firebase
+      - name: 파이어베이스
         description: ''
         percent: 40
         icon: firebase
@@ -91,26 +91,26 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: 런닝
         description: ''
         percent: 60
         icon: person-simple-walk
-      - name: Cats
+      - name: 드럼
         description: ''
         percent: 100
-        icon: cat
-      - name: Photography
+        icon: drum
+      - name: 사진찍기
         description: ''
         percent: 80
         icon: camera
 languages:
-  - name: Python
+  - name: 파이썬
     percent: 80
   - name: R
     percent: 70
-  - name: Java
+  - name: 자바
     percent: 65
-  - name: JavaScript
+  - name: 자바스크립트
     percent: 60
   - name: HTML/CSS
     percent: 70
@@ -118,9 +118,9 @@ languages:
     percent: 50
   - name: C/C++
     percent: 55
-  - name: React
+  - name: 리액트
     percent: 50
-  - name: Firebase
+  - name: 파이어베이스
     percent: 40
 
 
