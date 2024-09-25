@@ -13,33 +13,34 @@ ko:
     main:
       - name: 소개
         url: /ko/
-        weight: 10
+        weight: 100
       - name: 자격증
         url: /ko/publication/
-        weight: 11
-      - parent: 자격증
+        weight: 200
+        identifier: certification
+      - parent: certification
         name: 리눅스
         url: /ko/publication/linux-master/
-        weight: 12
-      - parent: 자격증
+        weight: 210
+      - parent: certification
         name: sqld
         url: /ko/publication/sqld/
-        weight: 13
+        weight: 220
       - name: 수상 경력
         url: /ko/event/
-        weight: 14
+        weight: 300
       - name: 기술 스택
         url: /ko/post/
-        weight: 15
+        weight: 400
       - name: 경험
         url: /ko/experience/
-        weight: 16
+        weight: 500
       - name: 블로그
         url: /ko/projects/
-        weight: 17
+        weight: 600
       - name: 연락
         url: /ko/teaching/
-        weight: 18
+        weight: 700
 en:
   languageName: English
   languageCode: en-us
@@ -49,33 +50,33 @@ en:
     main:
       - name: Introduction
         url: /en/
-        weight: 20
+        weight: 800
       - name: Certification
         url: /en/publication/
-        weight: 21
+        weight: 900
       - parent: Certification
         name: 리눅스
         url: /en/publication/linux-master/
-        weight: 22
+        weight: 910
       - parent: Certification
         name: sqld
         url: /en/publication/sqld/
-        weight: 23
+        weight: 920
       - name: Award-winning
         url: /en/event/
-        weight: 24
+        weight: 1000
       - name: Technical Stack
         url: /en/post/
-        weight: 25
+        weight: 1100
       - name: Experience
         url: /en/experience/
-        weight: 26
+        weight: 1200
       - name: Blog
         url: /en/projects/
-        weight: 27
+        weight: 1300
       - name: Contact
         url: /en/teaching/
-        weight: 28
+        weight: 1400
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   #contentDir: content/en
 
