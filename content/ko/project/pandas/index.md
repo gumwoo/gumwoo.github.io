@@ -5,6 +5,6 @@ date: 2023-10-26
 external_link: https://velog.io/@_gunnn_oo__/posts
 ---
 
-Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.
+벨로그는 학습 기록용으로 사용하고 있습니다.
 
 <!--more-->
