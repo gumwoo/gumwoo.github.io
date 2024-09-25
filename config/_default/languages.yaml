@@ -3,42 +3,6 @@
 #   Documentation: https://docs.hugoblox.com/reference/language/
 
 # Default language
-en:
-  languageName: English
-  languageCode: en-us
-  contentDir: content/en  # 영어 컨텐츠 폴더 설정
-  weight: 2  # 낮은 숫자가 우선순위가 더 높음
-  menu:
-    main:
-      - name: Introduction
-        url: /en/
-        weight: 10
-      - name: Certification
-        url: /en/publication/
-        weight: 11
-      - parent: Certification
-        name: 리눅스
-        url: /en/publication/linux-master/
-        weight: 12
-      - parent: Certification
-        name: sqld
-        url: /en/publication/sqld/
-        weight: 13
-      - name: Award-winning
-        url: /en/event/
-        weight: 14
-      - name: Technical Stack
-        url: /en/post/
-        weight: 15
-      - name: Experience
-        url: /en/experience/
-        weight: 16
-      - name: Blog
-        url: /en/projects/
-        weight: 17
-      - name: Contact
-        url: /en/teaching/
-        weight: 18
 
 ko:
   languageName: 한국어
@@ -76,7 +40,42 @@ ko:
       - name: 연락
         url: /ko/teaching/
         weight: 18
-
+en:
+  languageName: English
+  languageCode: en-us
+  contentDir: content/en  # 영어 컨텐츠 폴더 설정
+  weight: 2  # 낮은 숫자가 우선순위가 더 높음
+  menu:
+    main:
+      - name: Introduction
+        url: /en/
+        weight: 20
+      - name: Certification
+        url: /en/publication/
+        weight: 21
+      - parent: Certification
+        name: 리눅스
+        url: /en/publication/linux-master/
+        weight: 22
+      - parent: Certification
+        name: sqld
+        url: /en/publication/sqld/
+        weight: 23
+      - name: Award-winning
+        url: /en/event/
+        weight: 24
+      - name: Technical Stack
+        url: /en/post/
+        weight: 25
+      - name: Experience
+        url: /en/experience/
+        weight: 26
+      - name: Blog
+        url: /en/projects/
+        weight: 27
+      - name: Contact
+        url: /en/teaching/
+        weight: 28
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   #contentDir: content/en
 
