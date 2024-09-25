@@ -12,34 +12,34 @@ ko:
   menu:
     main:
       - name: 소개
-        url: /ko/
+        url: /
         weight: 100
       - name: 자격증
-        url: /ko/publication/
+        url: /publication/
         weight: 200
         identifier: certification
       - parent: certification
         name: 리눅스
-        url: /ko/publication/linux-master/
+        url: /publication/linux-master/
         weight: 210
       - parent: certification
         name: sqld
-        url: /ko/publication/sqld/
+        url: /publication/sqld/
         weight: 220
       - name: 수상 경력
-        url: /ko/event/
+        url: /event/
         weight: 300
       - name: 기술 스택
-        url: /ko/post/
+        url: /post/
         weight: 400
       - name: 경험
-        url: /ko/experience/
+        url: /experience/
         weight: 500
       - name: 블로그
-        url: /ko/projects/
+        url: /projects/
         weight: 600
       - name: 연락
-        url: /ko/teaching/
+        url: /teaching/
         weight: 700
 en:
   languageName: English
