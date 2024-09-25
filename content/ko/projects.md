@@ -1,5 +1,5 @@
 ---
-title: 'Projects'
+title: 'Blog'
 date: 2024-05-19
 type: landing
 lang: ko
@@ -11,8 +11,8 @@ design:
 sections:
   - block: collection
     content:
-      title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      title: 블로그
+      text: 블로그 소개
       filters:
         folders:
           - project
