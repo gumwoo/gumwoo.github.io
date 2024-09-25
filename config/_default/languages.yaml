@@ -16,21 +16,29 @@ en:
       - name: Certification
         url: /en/publication/
         weight: 11
+      - parent: Certification
+        name: 리눅스
+        url: /en/publication/linux-master/
+        weight: 12
+      - parent: Certification
+        name: sqld
+        url: /en/publication/sqld/
+        weight: 13
       - name: Award-winning
         url: /en/event/
-        weight: 12
+        weight: 14
       - name: Technical Stack
         url: /en/post/
-        weight: 13
+        weight: 15
       - name: Experience
         url: /en/experience/
-        weight: 20
+        weight: 16
       - name: Blog
         url: /en/projects/
-        weight: 30
-      - name: Teaching
+        weight: 17
+      - name: Contact
         url: /en/teaching/
-        weight: 40
+        weight: 18
 
 ko:
   languageName: 한국어
@@ -45,21 +53,29 @@ ko:
       - name: 자격증
         url: /ko/publication/
         weight: 11
+      - parent: 자격증
+        name: 리눅스
+        url: /ko/publication/linux-master/
+        weight: 12
+      - parent: 자격증
+        name: sqld
+        url: /ko/publication/sqld/
+        weight: 13
       - name: 수상 경력
         url: /ko/event/
-        weight: 12
+        weight: 14
       - name: 기술 스택
         url: /ko/post/
-        weight: 13
+        weight: 15
       - name: 경험
         url: /ko/experience/
-        weight: 20
+        weight: 16
       - name: 블로그
         url: /ko/projects/
-        weight: 30
-      - name: 강의
+        weight: 17
+      - name: 연락
         url: /ko/teaching/
-        weight: 40
+        weight: 18
 
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   #contentDir: content/en

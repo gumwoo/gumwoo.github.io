@@ -14,7 +14,7 @@ baseURL: 'https://https://gumwoo.github.io/'
 
 defaultContentLanguage: ko
 hasCJKLanguage: false
-defaultContentLanguageInSubdir: true
+defaultContentLanguageInSubdir: false
 removePathAccents: true
 
 ############################
@@ -42,9 +42,10 @@ imaging:
   anchor: smart
 timeout: 600000
 taxonomies:
-  author: authors
   tag: tags
+  category: categories
   publication_type: publication_types
+  author: authors
 markup:
   _merge: deep
   highlight:
