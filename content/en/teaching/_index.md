@@ -12,7 +12,7 @@ sections:
         Hello, I'm Gunwoo Kang. If you'd like to get in touch, please use the following contact information.
 
         - **Email**: [rkdrjsdn1000@naver.com](mailto:rkdrjsdn1000@naver.com)
-        # - **Phone**: +82-10-7412-7378
+        - **Phone**: +82-10-7412-7378
         - **Address**: 567 Baekje-daero, Jeonju-si, Jeollabuk-do
 
         ## Location

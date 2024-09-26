@@ -11,8 +11,8 @@ design:
 sections:
   - block: collection
     content:
-      title: development blog
-      text: Let me introduce my development blog.
+      title: blog
+      text: Let me introduce my blog.
       filters:
         folders:
           - project
