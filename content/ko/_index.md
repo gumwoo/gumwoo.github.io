@@ -26,7 +26,62 @@ sections:
         #   size: cover
         #   position: center
         #   parallax: false
+
+  - block: slider
+    content:
+      slides:
+
+      - title: <span style="font-size:70%">소개</span>
+        content: <span style="font-size:70%">자기소개 페이지입니다</span>
+        align: center
+        background:
+          image:
+            filename: introduce.png
+            filters:
+              brightness: 0.4
+          position: center
+          color: '#000'
+        link:
+          icon: user
+          icon_pack: fas
+          text: <span style="font-size:60%">Join Us</span>
+          text-color: '#000'
+          url: contact
+
+      - title: <span style="font-size:70%">인공지능</span>
+        content: <span style="font-size:70%">파이썬을 활용한 AI 기술 개발<span style="font-size:70%">
+        align: center
+        background:
+          image:
+            filename: Ai.png
+            filters:
+              brightness: 0.4
+          position: center
+          color: '#000'
+
+      - title: <span style="font-size:70%">Development</span>
+        content: <span style="font-size:70%">여러 기술을 활용한 Full-Stack 어플리케이션 개발</span>
+        align: center
+        background:
+          image:
+            filename: development.png
+            filters:
+              brightness: 0.4
+          position: center
+          color: '#000'
+
+    design:
+      # Slide height is automatic unless you force a specific height (e.g. '400px')
+      slide_height: '350px'
+      slide_width: '100px'
+      is_fullscreen: false
+      # Automatically transition through slides?
+      loop: true
+      # Duration of transition between slides (in ms)
+      interval: 3000
+
   - block: features
+    id: features
     content:
       title: <span style="font-size:75%">My Interests</span>
       text: 제가 관심 있는 분야들입니다.<br><br>
