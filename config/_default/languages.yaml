@@ -41,9 +41,6 @@ ko:
       - name: 연락
         url: /teaching/
         weight: 700
-      - name: 연락처
-        url: /ko/contact/
-        weight: 18
 en:
   languageName: English
   languageCode: en-us
@@ -80,9 +77,6 @@ en:
       - name: Contact
         url: /en/teaching/
         weight: 1400
-      - name: Contactss
-        url: /en/contact/
-        weight: 28
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   #contentDir: content/en
 
