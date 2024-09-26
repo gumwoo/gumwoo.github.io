@@ -27,7 +27,7 @@ sections:
         #   position: center
         #   parallax: false
 
-  - block: slider
+  - block: gallery
     content:
       slides:
 
@@ -71,6 +71,8 @@ sections:
           color: '#000'
 
     design:
+      style: slider 
+      autoplay: true
       # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: '350px'
       slide_width: '100px'
