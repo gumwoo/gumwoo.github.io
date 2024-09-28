@@ -80,7 +80,7 @@ sections:
       # Duration of transition between slides (in ms)
       interval: 3000
 
-  - block: features
+  - block: features 
     id: features
     content:
       title: <span style="font-size:75%">My Interests</span>
@@ -123,7 +123,7 @@ sections:
       subtitle: ''
       text: |-
         전북대학교에서 통계학과 컴퓨터공학을 복수전공 중입니다. 
-        현재 학점은 4점대를 유지중이고, 데이터 분석, 프로그래밍, 데이터베이스에 중점을 두고 공부하고 있으며, 이를 통해 백엔드 개발 및 인공지능에 대한 기초를 다지고 있습니다.
+        현재 학점은 4점대를 유지중이며, 데이터 분석, 프로그래밍, 데이터베이스에 중점을 두고 공부하고 있으며, 이를 통해 백엔드 개발 및 인공지능에 대한 기초를 다지고 있습니다.
          Python과 R, JavaScript를 사용하여 통계 데이터 분석과 웹 개발관련 프로젝트를 수행한 경험이 있습니다.😃
     design:
       columns: '1'
