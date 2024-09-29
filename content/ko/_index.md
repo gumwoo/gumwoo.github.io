@@ -116,7 +116,7 @@ sections:
   - block: collection
     content:
       id: section-1
-      title: Notifications & News
+      title: certification
       subtitle:
       text:
       count: 3
