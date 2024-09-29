@@ -33,7 +33,7 @@ education:
   courses:
     - course: 통계학 & 컴퓨터공학
       institution: 전북대학교 (JBNU)
-      year: 2020 - 
+      year: 2020 - present
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
