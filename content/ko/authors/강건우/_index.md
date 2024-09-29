@@ -14,7 +14,7 @@ authors:
 superuser: true
 
 # Role/position
-role:학생
+role: 학생
 
 # Organizations/Affiliations
 organizations:
