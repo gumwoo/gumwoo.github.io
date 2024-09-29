@@ -12,7 +12,12 @@ ko:
   languageCode: ko
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   contentDir: content/ko
-
+  weight: 1  # 한국어는 첫번째 언어로 설정
+en:
+  languageName: English
+  languageCode: en-us
+  contentDir: content/en  # 영어 컨텐츠 폴더 설정
+  weight: 2  # 낮은 숫자가 우선순위가 더 높음
 # Uncomment the lines below to configure your website in a second language.
 #zh:
 #  languageCode: zh-Hans

@@ -14,10 +14,10 @@ appearance:
 
 marketing:
   seo:
-    site_type: Organization
+    site_type: Person
     local_business_type: ''
-    org_name: 'MacsLAB'
-    description: 'MacsLAB in Jeonbuk National Univ.'
+    org_name: ''
+    description: ''
     twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
@@ -30,15 +30,18 @@ marketing:
 
 # Site header
 
+# Site header
 header:
   navbar:
     enable: true
-    align: c
-    show_logo: true
-    show_language: false
-    show_day_night: true
+    blox: "navbar"
+    fixed_to_top: true
     show_search: true
+    show_language: true
     highlight_active_link: false
+    show_day_night: true
+    logo:
+      text: "PORTFOLIO"
 
 # Site footer
 
