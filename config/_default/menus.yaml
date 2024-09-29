@@ -16,12 +16,8 @@ main:
     weight: 200
   - parent: People
     name: Professor
-    url: /author/이경수/
+    url: /author/강건우/
     weight: 210
-  - parent: People
-    name: Members
-    url: people
-    weight: 220
 
   - name: Research
     url: publication
