@@ -9,9 +9,8 @@ sections:
   - block: features
     content:
       title: <span style="font-size:70%">About me </span>
-      text: |
-        <img src="/avatar1.png" alt="강건우" style="border-radius: 30%; width: 250px; height: auto; float: right;">
-        안녕하세요! 제 이름은 강건우입니다.<br>소통을 잘하는 개발자가 되고 싶습니다
+      text: <br><span style="font-size:125%">안녕하세요! 제 이름은 강건우입니다.<br>소통을 잘하는 개발자가 되고 싶습니다</span> <br><br>
+      
         {{% cta cta_link="./field/" cta_text="See Research Field →" %}}
     design:
       columns: '2'  # 두 개의 컬럼으로 설정
