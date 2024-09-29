@@ -92,7 +92,7 @@ sections:
           icon_pack: fas
           description: <span style="font-size:90%">AI 기술을 활용.</span><br><br>
         - name: 클라우드
-          icon: cloud-solid
+          icon: cloud
           icon_pack: fab
           description:  <span style="font-size:90%">클라우드 기술을 활용한 데이터 관리</span><br><br>
         - name: 데이터 분석
