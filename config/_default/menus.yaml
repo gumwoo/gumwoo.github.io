@@ -12,7 +12,7 @@ main:
     weight: 100
 
   - name: Professor
-    url: /author/강건우/
+    url: /authors/강건우/
     weight: 200
 
   - name: Research
