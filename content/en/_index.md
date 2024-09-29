@@ -22,7 +22,7 @@ sections:
         align: center
         background:
           image:
-            filename: recruitment.jpg
+            filename: introduce.png
             filters:
               brightness: 0.4
           position: center
@@ -39,7 +39,7 @@ sections:
         align: center
         background:
           image:
-            filename: Ai.jpg
+            filename: Ai.png
             filters:
               brightness: 0.4
           position: center
@@ -72,7 +72,7 @@ sections:
         align: center
         background:
           image:
-            filename: development.jpg
+            filename: development.png
             filters:
               brightness: 0.4
           position: center
