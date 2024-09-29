@@ -84,33 +84,33 @@ sections:
   - block: features
     id: features
     content:
-      title: <span style="font-size:75%">Lab's Interests</span>
-      text: 저희 연구실에서는 다음과 같은 연구/개발 분야에 관심을 쏟고 있습니다.<br><br><br><br>
+      title: <span style="font-size:75%">Interests</span>
+      text: 저는 다음과 같은 분야에 관심을 쏟고 있습니다.<br><br><br><br>
       items:
         - name: 인공지능(AI)
           icon: code-branch
           icon_pack: fas
-          description: <span style="font-size:90%">의료 (Medical), 항공우주 (Aerospace), 컨텐츠 (Contents) 등 다양한 특성화 분야에 적응형 AI 기술 적용.</span><br><br>
-        - name: 멀티모달(Multi-modality)
-          icon: globe
-          icon_pack: fas
-          description:  <span style="font-size:90%">Vision & Language 분야의 기반 AI 기술 개발 및 관련 응용 어플리케이션에 기술 적용.</span><br><br>
-        - name: 의료수학(Medical Math)
+          description: <span style="font-size:90%">AI 기술을 활용.</span><br><br>
+        - name: 클라우드
+          icon: cloud-solid
+          icon_pack: fab
+          description:  <span style="font-size:90%">클라우드 기술을 활용한 데이터 관리</span><br><br>
+        - name: 데이터 분석
           icon: calculator
           icon_pack: fas
-          description:  <span style="font-size:90%">의료 분야에 대한 통계 분석 수행 및 의료 질병에 대한 수학적인 모델링 관련 연구 수행.</span><br><br>
-        - name: 컨텐츠 (Contents)
+          description:  <span style="font-size:90%">데이터 분석을 통한 인사이트 도출</span><br><br>
+        - name: 소셜 미디어 (Contents)
           icon: comment-dots
           icon_pack: fas
-          description:  <span style="font-size:90%">웹툰 및 미디어 컨텐츠와 관련된 AI 기반 기술 개발 및 고도화.</span><br><br>
-        - name: 개발 (Development)
+          description:  <span style="font-size:90%">소셜 미디어 플랫폼과 연동</span><br><br>
+        - name: 웹 개발 (Development)
           icon: laptop
           icon_pack: fas
-          description:  <span style="font-size:90%">Full-Stack 기반의 응용 어플리케이션 개발.</span><br><br>
-        - name: 솔루션 (Solution)
+          description:  <span style="font-size:90%">노드 기반의 Full-Stack 개발.</span><br><br>
+        - name: 오픈소스 
           icon: app-store-ios
           icon_pack: fab
-          description:  <span style="font-size:90%">AI 기반기술 및 관련 어플리케이션에 적용을 통한 통합 솔루션 개발!</span><br><br>
+          description:  <span style="font-size:90%">오픈 소스 프로젝트에 기여</span><br><br>
 
 
   - block: collection
