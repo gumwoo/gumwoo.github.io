@@ -1,14 +1,11 @@
 ---
-title: ''
-cms_exclude: true
-lang: en
-# View.
-view: article-grid
+title: Publications
 
-# Optional header image (relative to `static/media/` folder).
+# Listing view
+view: citation
+
+# Optional banner image (relative to `assets/media/` folder).
 banner:
-  image: ''
   caption: ''
+  image: ''
 ---
-
-

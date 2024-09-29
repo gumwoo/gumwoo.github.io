@@ -1,14 +1,11 @@
 ---
-title: ''
-cms_exclude: true
-lang: ko
-# View.
-view: article-grid
+title: Publications
 
-# Optional header image (relative to `static/media/` folder).
+# Listing view
+view: community/custom_compact
+
+# Optional banner image (relative to `assets/media/` folder).
 banner:
-  image: ''
-  caption: ''
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/)'
+  image: 'researchpaper.jpg'
 ---
-
-

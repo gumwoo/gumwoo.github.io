@@ -1,21 +1,11 @@
 ---
-title: 'technical-stack'
-date: 2023-10-24
-type: landing
-lang: ko
-design:
-  spacing: '5rem'
+title: News
 
-# Page sections
-sections:
-  - block: resume-skills
-    content:
-      title: Skills & Hobbies
-      username: admin
-    design:
-      show_skill_percentage: false
-  - block: resume-languages
-    content:
-      title: Languages
-      username: admin
+# Listing view
+view: community/custom_card
+
+# Optional banner image (relative to `assets/media/` folder).
+banner:
+  caption: ''
+  image: ''
 ---

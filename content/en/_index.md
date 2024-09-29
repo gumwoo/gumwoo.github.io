@@ -1,153 +1,67 @@
 ---
 # Leave the homepage title empty to use the site title
-title: ""
+title:
 date: 2022-10-24
 type: landing
-lang: en
-design:
-  # Default section spacing
-  spacing: "6rem"
 
 sections:
-  - block: resume-biography-3
+  - block: hero
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      username: admin
-      text: ""
+      title: |
+        Wowchemy
+        Research Group
+      image:
+        filename: welcome.jpg
+      text: |
+        <br>
+        
+        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
+  
+  - block: collection
+    content:
+      title: Latest News
+      subtitle:
+      text:
+      count: 5
+      filters:
+        author: ''
+        category: ''
+        exclude_featured: false
+        publication_type: ''
+        tag: ''
+      offset: 0
+      order: desc
+      page_type: post
     design:
-      css_class: dark
-      background:
-        color: '#4682B4'
-        # image:
-        #   # Add your image background to `assets/media/`.
-        #   filename: stacked-peaks.svg
-        #   filters:
-        #     brightness: 1.0
-        #   size: cover
-        #   position: center
-        #   parallax: false
-  - block: features
-    content:
-      title: <span style="font-size:75%">My Interests</span>
-      text: 제가 관심 있는 분야들입니다.<br><br>
-      items:
-        - name: 인공지능(AI)
-          icon: code-branch
-          icon_pack: fas
-          description: <span style="font-size:90%"> AI 기술을 활용</span>
-
-        - name: 데이터 분석
-          icon: chart-bar
-          icon_pack: fas
-          description: <span style="font-size:90%">데이터 분석을 통한 인사이트 도출.</span>
-
-        - name: 웹 개발
-          icon: laptop
-          icon_pack: fas
-          description: <span style="font-size:90%">Full-Stack 웹 개발 기술 활용.</span>
-
-        - name: 소셜 미디어
-          icon: twitter
-          icon_pack: fab  
-          description: <span style="font-size:90%">소셜 미디어 플랫폼과 연동.</span>
-
-        - name: 클라우드 컴퓨팅
-          icon: cloud
-          icon_pack: fas
-          description: <span style="font-size:90%">클라우드 기술을 통한 데이터 관리.</span>
-
-        - name: 오픈소스
-          icon: github
-          icon_pack: fab  
-          description: <span style="font-size:90%">오픈소스 프로젝트에 기여</span>
+      view: card
+      columns: '1'
+  
   - block: markdown
     content:
-      title: '📚 About me'
+      title:
       subtitle: ''
-      text: |-
-        전북대학교에서 통계학과 컴퓨터공학을 복수전공 중입니다. 
-        현재 학점은 4점대를 유지중이고, 데이터 분석, 프로그래밍, 데이터베이스에 중점을 두고 공부하고 있으며, 이를 통해 백엔드 개발 및 인공지능에 대한 기초를 다지고 있습니다.
-         Python과 R, JavaScript를 사용하여 통계 데이터 분석과 웹 개발관련 프로젝트를 수행한 경험이 있습니다.😃
+      text:
     design:
       columns: '1'
-  # - block: collection
-  #   id: papers
-  #   content:
-  #     title: Featured Publications
-  #     filters:
-  #       folders:
-  #         - publication
-  #       featured_only: true
-  #   design:
-  #     view: article-grid
-  #     columns: 2
-  # - block: collection
-  #   content:
-  #     title: Recent Publications
-  #     text: ""
-  #     filters:
-  #       folders:
-  #         - publication
-  #       exclude_featured: false
-  #   design:
-  #     view: citation
-  # - block: collection
-  #   id: talks
-  #   content:
-  #     title: Recent & Upcoming Talks
-  #     filters:
-  #       folders:
-  #         - event
-  #   design:
-  #     view: article-grid
-  #     columns: 1
-  # - block: collection
-  #   id: news
-  #   content:
-  #     title: Recent News
-  #     subtitle: ''
-  #     text: ''
-  #     # Page type to display. E.g. post, talk, publication...
-  #     page_type: post
-  #     # Choose how many pages you would like to display (0 = all pages)
-  #     count: 5
-  #     # Filter on criteria
-  #     filters:
-  #       author: ""
-  #       category: ""
-  #       tag: ""
-  #       exclude_featured: false
-  #       exclude_future: false
-  #       exclude_past: false
-  #       publication_type: ""
-  #     # Choose how many pages you would like to offset by
-  #     offset: 0
-  #     # Page order: descending (desc) or ascending (asc) date.
-  #     order: desc
-  #   design:
-  #     # Choose a layout view
-  #     view: date-title-summary
-  #     # Reduce spacing
-  #     spacing:
-  #       padding: [0, 0, 0, 0]
-  - block: cta-card
-    demo: true # Only display this section in the Hugo Blox Builder demo site
+      background:
+        image: 
+          filename: coders.jpg
+          filters:
+            brightness: 1
+          parallax: false
+          position: center
+          size: cover
+          text_color_light: true
+      spacing:
+        padding: ['20px', '0', '20px', '0']
+      css_class: fullscreen
+  
+  - block: markdown
     content:
-      title: 👉 Build your own academic website like this
-      text: |-
-        This site is generated by Hugo Blox Builder - the FREE, Hugo-based open source website builder trusted by 250,000+ academics like you.
-
-        <a class="github-button" href="https://github.com/HugoBlox/hugo-blox-builder" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star HugoBlox/hugo-blox-builder on GitHub">Star</a>
-
-        Easily build anything with blocks - no-code required!
-        
-        From landing pages, second brains, and courses to academic resumés, conferences, and tech blogs.
-      button:
-        text: Get Started
-        url: https://hugoblox.com/templates/
+      title:
+      subtitle:
+      text: |
+        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
     design:
-      card:
-        # Card background color (CSS class)
-        css_class: "bg-primary-700"
-        css_style: ""
+      columns: '1'
 ---

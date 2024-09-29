@@ -1,42 +1,28 @@
 ---
 # Leave the homepage title empty to use the site title
-title: ""
-date: 2022-10-24
+title:
+date: 2024-03-25
 type: landing
-lang: ko
-design:
-  # Default section spacing
-  spacing: "6rem"
 
 sections:
-  - block: resume-biography-3
+
+  - block: features
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      username: admin
-      text: ""
-    design:
-      css_class: dark
-      background:
-        color: '#4682B4'
-        # image:
-        #   # Add your image background to `assets/media/`.
-        #   filename: stacked-peaks.svg
-        #   filters:
-        #     brightness: 1.0
-        #   size: cover
-        #   position: center
-        #   parallax: false
+      title: <span style="font-size:70%">Medical AI & Computational Science (Macs) Lab </span>
+      text: <br><span style="font-size:125%">전북대학교 의료 AI 및 계산 과학 연구실 홈페이지에 오신 것을 환영합니다.</span> <br><br>
+        {{% cta cta_link="./field/" cta_text="See Research Field →" %}}
+
 
   - block: slider
     content:
       slides:
 
-      - title: <span style="font-size:70%">소개</span>
-        content: <span style="font-size:70%">자기소개 페이지입니다</span>
+      - title: <span style="font-size:70%">Recruit</span>
+        content: <span style="font-size:70%">Interested in MacsLAB?</span>
         align: center
         background:
           image:
-            filename: introduce.png
+            filename: recruitment.jpg
             filters:
               brightness: 0.4
           position: center
@@ -48,23 +34,45 @@ sections:
           text-color: '#000'
           url: contact
 
-      - title: <span style="font-size:70%">인공지능</span>
-        content: <span style="font-size:70%">파이썬을 활용한 AI 기술 개발<span style="font-size:70%">
+      - title: <span style="font-size:70%">AI</span>
+        content: <span style="font-size:70%">의료/항공우주/컨텐츠 등 특성화 분야에 적용 가능한 AI 기술 개발<span style="font-size:70%">
         align: center
         background:
           image:
-            filename: Ai.png
+            filename: Ai.jpg
+            filters:
+              brightness: 0.4
+          position: center
+          color: '#000'
+
+      - title: <span style="font-size:70%">Healthcare</span>
+        content: <span style="font-size:70%">의료 및 헬스케어 분야에 적용 가능한 AI 기술 개발</span>
+        align: center
+        background:
+          image:
+            filename: healthcare.jpg
+            filters:
+              brightness: 0.4
+          position: center
+          color: '#000'
+
+      - title: <span style="font-size:70%">Mathematics</span>
+        content: <span style="font-size:70%">AI와 관련된 수학 및 최적화 이론 연구</span>
+        align: center
+        background:
+          image:
+            filename: mathematics.jpg
             filters:
               brightness: 0.4
           position: center
           color: '#000'
 
       - title: <span style="font-size:70%">Development</span>
-        content: <span style="font-size:70%">여러 기술을 활용한 Full-Stack 어플리케이션 개발</span>
+        content: <span style="font-size:70%">기반 기술을 활용한 Full-Stack 어플리케이션 개발</span>
         align: center
         background:
           image:
-            filename: development.png
+            filename: development.jpg
             filters:
               brightness: 0.4
           position: center
@@ -80,131 +88,84 @@ sections:
       # Duration of transition between slides (in ms)
       interval: 3000
 
-  - block: features 
+
+  - block: features
     id: features
     content:
-      title: <span style="font-size:75%">My Interests</span>
-      text: 제가 관심 있는 분야들입니다.<br><br>
+      title: <span style="font-size:75%">Lab's Interests</span>
+      text: 저희 연구실에서는 다음과 같은 연구/개발 분야에 관심을 쏟고 있습니다.<br><br><br><br>
       items:
         - name: 인공지능(AI)
           icon: code-branch
           icon_pack: fas
-          description: <span style="font-size:90%"> AI 기술을 활용</span>
-
-        - name: 데이터 분석
-          icon: chart-bar
+          description: <span style="font-size:90%">의료 (Medical), 항공우주 (Aerospace), 컨텐츠 (Contents) 등 다양한 특성화 분야에 적응형 AI 기술 적용.</span><br><br>
+        - name: 멀티모달(Multi-modality)
+          icon: globe
           icon_pack: fas
-          description: <span style="font-size:90%">데이터 분석을 통한 인사이트 도출.</span>
-
-        - name: 웹 개발
+          description:  <span style="font-size:90%">Vision & Language 분야의 기반 AI 기술 개발 및 관련 응용 어플리케이션에 기술 적용.</span><br><br>
+        - name: 의료수학(Medical Math)
+          icon: calculator
+          icon_pack: fas
+          description:  <span style="font-size:90%">의료 분야에 대한 통계 분석 수행 및 의료 질병에 대한 수학적인 모델링 관련 연구 수행.</span><br><br>
+        - name: 컨텐츠 (Contents)
+          icon: comment-dots
+          icon_pack: fas
+          description:  <span style="font-size:90%">웹툰 및 미디어 컨텐츠와 관련된 AI 기반 기술 개발 및 고도화.</span><br><br>
+        - name: 개발 (Development)
           icon: laptop
           icon_pack: fas
-          description: <span style="font-size:90%">Full-Stack 웹 개발 기술 활용.</span>
+          description:  <span style="font-size:90%">Full-Stack 기반의 응용 어플리케이션 개발.</span><br><br>
+        - name: 솔루션 (Solution)
+          icon: app-store-ios
+          icon_pack: fab
+          description:  <span style="font-size:90%">AI 기반기술 및 관련 어플리케이션에 적용을 통한 통합 솔루션 개발!</span><br><br>
 
-        - name: 소셜 미디어
-          icon: twitter
-          icon_pack: fab  
-          description: <span style="font-size:90%">소셜 미디어 플랫폼과 연동.</span>
 
-        - name: 클라우드 컴퓨팅
-          icon: cloud
-          icon_pack: fas
-          description: <span style="font-size:90%">클라우드 기술을 통한 데이터 관리.</span>
+  - block: collection
+    content:
+      id: section-1
+      title: Notifications & News
+      subtitle:
+      text:
+      count: 3
+      offset: 0
+      order: desc
+      filters:
+        folders:
+          - notification
+          - post
+          - event
+    design:
+      view: community/custom_card
+      columns: '2'
 
-        - name: 오픈소스
-          icon: github
-          icon_pack: fab  
-          description: <span style="font-size:90%">오픈소스 프로젝트에 기여</span>
-
+  - block: collection
+    content:
+      title: Latest Publications
+      subtitle:
+      text:
+      count: 3
+      filters:
+        author: ''
+        category: ''
+        exclude_featured: false
+        publication_type: ''
+        tag: ''
+      offset: 0
+      order: desc
+      page_type: publication
+    design:
+      view: community/custom_card
+      columns: '2'
+    advanced:
+      css_style: "text-align: center;"
 
   - block: markdown
     content:
-      title: '📚 About me'
-      subtitle: ''
-      text: |-
-        전북대학교에서 통계학과 컴퓨터공학을 복수전공 중입니다. 
-        현재 학점은 4점대를 유지중이며, 데이터 분석, 프로그래밍, 데이터베이스에 중점을 두고 공부하고 있으며, 이를 통해 백엔드 개발 및 인공지능에 대한 기초를 다지고 있습니다.
-         Python과 R, JavaScript를 사용하여 통계 데이터 분석과 웹 개발관련 프로젝트를 수행한 경험이 있습니다.😃
+      title:
+      subtitle:
+      text: |
+        {{% cta cta_link="./contact/" cta_text="Join team →" %}}
     design:
       columns: '1'
-  # - block: collection
-  #   id: papers
-  #   content:
-  #     title: Featured Publications
-  #     filters:
-  #       folders:
-  #         - publication
-  #       featured_only: true
-  #   design:
-  #     view: article-grid
-  #     columns: 2
-  # - block: collection
-  #   content:
-  #     title: Recent Publications
-  #     text: ""
-  #     filters:
-  #       folders:
-  #         - publication
-  #       exclude_featured: false
-  #   design:
-  #     view: citation
-  # - block: collection
-  #   id: talks
-  #   content:
-  #     title: Recent & Upcoming Talks
-  #     filters:
-  #       folders:
-  #         - event
-  #   design:
-  #     view: article-grid
-  #     columns: 1
-  # - block: collection
-  #   id: news
-  #   content:
-  #     title: Recent News
-  #     subtitle: ''
-  #     text: ''
-  #     # Page type to display. E.g. post, talk, publication...
-  #     page_type: post
-  #     # Choose how many pages you would like to display (0 = all pages)
-  #     count: 5
-  #     # Filter on criteria
-  #     filters:
-  #       author: ""
-  #       category: ""
-  #       tag: ""
-  #       exclude_featured: false
-  #       exclude_future: false
-  #       exclude_past: false
-  #       publication_type: ""
-  #     # Choose how many pages you would like to offset by
-  #     offset: 0
-  #     # Page order: descending (desc) or ascending (asc) date.
-  #     order: desc
-  #   design:
-  #     # Choose a layout view
-  #     view: date-title-summary
-  #     # Reduce spacing
-  #     spacing:
-  #       padding: [0, 0, 0, 0]
-  - block: cta-card
-    demo: true # Only display this section in the Hugo Blox Builder demo site
-    content:
-      title: 👉 Build your own academic website like this
-      text: |-
-        This site is generated by Hugo Blox Builder - the FREE, Hugo-based open source website builder trusted by 250,000+ academics like you.
-
-        <a class="github-button" href="https://github.com/HugoBlox/hugo-blox-builder" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star HugoBlox/hugo-blox-builder on GitHub">Star</a>
-
-        Easily build anything with blocks - no-code required!
-        
-        From landing pages, second brains, and courses to academic resumés, conferences, and tech blogs.
-      button:
-        text: Get Started
-        url: https://hugoblox.com/templates/
-    design:
-      card:
-        # Card background color (CSS class)
-        css_class: "bg-primary-700"
-        css_style: ""
 ---

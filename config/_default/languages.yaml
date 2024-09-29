@@ -3,82 +3,15 @@
 #   Documentation: https://docs.hugoblox.com/reference/language/
 
 # Default language
+# en:
+#   languageCode: en-us
+#   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
+#   contentDir: content/en
 
 ko:
-  languageName: 한국어
-  languageCode: ko-kr
-  contentDir: content/ko  # 한국어 컨텐츠 폴더 설정
-  weight: 1  # 한국어는 첫번째 언어로 설정
-  menu:
-    main:
-      - name: 소개
-        url: /
-        weight: 100
-      - name: 자격증
-        url: /publication/
-        weight: 200
-        identifier: certification
-      - parent: certification
-        name: 리눅스
-        url: /publication/linux-master/
-        weight: 210
-      - parent: certification
-        name: sqld
-        url: /publication/sqld/
-        weight: 220
-      - name: 수상 경력
-        url: /event/
-        weight: 300
-      - name: 기술 스택
-        url: /post/
-        weight: 400
-      - name: 경험
-        url: /experience/
-        weight: 500
-      - name: 블로그
-        url: /projects/
-        weight: 600
-      - name: 연락
-        url: /teaching/
-        weight: 700
-en:
-  languageName: English
-  languageCode: en-us
-  contentDir: content/en  # 영어 컨텐츠 폴더 설정
-  weight: 2  # 낮은 숫자가 우선순위가 더 높음
-  menu:
-    main:
-      - name: Introduction
-        url: /en/
-        weight: 800
-      - name: Certification
-        url: /en/publication/
-        weight: 900
-      - parent: Certification
-        name: 리눅스
-        url: /en/publication/linux-master/
-        weight: 910
-      - parent: Certification
-        name: sqld
-        url: /en/publication/sqld/
-        weight: 920
-      - name: Award-winning
-        url: /en/event/
-        weight: 1000
-      - name: Technical Stack
-        url: /en/post/
-        weight: 1100
-      - name: Experience
-        url: /en/experience/
-        weight: 1200
-      - name: Blog
-        url: /en/projects/
-        weight: 1300
-      - name: Contact
-        url: /en/teaching/
-        weight: 1400
+  languageCode: ko
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+  contentDir: content/ko
 
 # Uncomment the lines below to configure your website in a second language.
 #zh:

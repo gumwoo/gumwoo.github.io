@@ -1,16 +1,14 @@
-module github.com/HugoBlox/hugo-blox-builder/starters/academic-cv
+module github.com/wowchemy/starter-hugo-research-group
 
-go 1.19
-
-require (
-	github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify v1.1.2-0.20240908170534-4f621dfa3a5a
-	github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind v0.2.1-0.20240908170534-4f621dfa3a5a
-)
+go 1.15
 
 require (
-	github.com/HugoBlox/hugo-blox-builder/modules/blox-analytics v0.1.2 // indirect
-	github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5 v5.9.7 // indirect
-	github.com/HugoBlox/hugo-blox-builder/modules/blox-core v0.3.1 // indirect
-	github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-decap-cms v0.1.1 // indirect
-	github.com/HugoBlox/hugo-blox-builder/modules/blox-seo v0.2.2 // indirect
+	github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify v1.1.2-0.20240217212918-ae7f0c597978
+	github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind v0.2.1-0.20240303165809-469a458ab94f
+	github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5 v5.9.7
+	github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-decap-cms v0.1.2-0.20231108143325-448ed0e3bd2b
+	github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify v1.1.2-0.20231108143325-448ed0e3bd2b
+	github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify v1.1.2-0.20231108143325-448ed0e3bd2b
+	github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind v0.2.1-0.20240303165809-469a458ab94f
+
 )

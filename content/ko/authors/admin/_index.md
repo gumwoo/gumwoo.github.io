@@ -1,172 +1,81 @@
 ---
 # Display name
-title: '강건우'
-lang: ko
-# Full name (for SEO)
-first_name: Kang
-last_name: gunwoo
+title: 이경수
+
+# Full Name (for SEO)
+first_name: Kyungsu
+last_name: Lee
+
+# Username (this should match the folder name)
+authors:
+  - admin
 
 # Is this the primary user of the site?
 superuser: true
 
+# Role/position
+role: 조교수
+
+# Organizations/Affiliations
+organizations:
+  - name: 전북대학교 컴퓨터인공지능학부
+    url: 'https://csai.jbnu.ac.kr/csai/index.do'
+
+# Short bio (displayed in user profile at end of posts)
+bio: 연합학습 및 표현 학습을 사용한 medical 도메인에서의 딥 러닝 기법, 도메인 적응 및 테스트 타임 학습과 같은 딥 러닝 기반 컴퓨터 비전 응용, 이미지 처리 및 이미지-텍스트 캡셔닝을 포함한 의료 응용의 딥 러닝 기반 진단 등을 포함합니다.
+
+interests:
+  - 인공지능 (AI)
+  - Vision & Language
+  - 의료수학 (Medical Mathematics)
+  - 항공우주 (Aerospace)
+  - 컨텐츠 (Contents)
+  - 개발 (Development & Deploy)
+
+education:
+  courses:
+    - course: Integrated M.S. & Ph.D. in (전기전자컴퓨터공학과)
+      institution: 대구경북과학기술원 (DGIST)
+      year: 2018 - 2023
+    - course: B.S. in (전산전자공학부)
+      institution: 한동대학교
+      year: 2014 - 2018
+
+# Social/Academic Networking
+# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
+#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
+#   form "mailto:your-email@example.com" or "#contact" for contact widget.
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto:ksl@jbnu.ac.kr'
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.co.kr/citations?hl=ko&user=Srg-7JMAAAAJ&view_op=list_works&authuser=3&gmla=AKKJWFdKkn6oOSodKydbVjFB9IpHqHHucjz06KnXACXkcsad_elmO3TnVclXh3i46QOPtpevNt2mKEReoILewOZrWPw38nBujERgFLA6D1JXhmVcGPzUiQU4Fg
+  - icon: orcid
+    icon_pack: ai
+    link: https://orcid.org/0009-0000-7223-0903
+  - icon: cv
+    icon_pack: ai
+    link: https://kyungsu-lee.s3.ap-northeast-2.amazonaws.com/%5BCV%5D+Kyungsu+Lee.pdf
+# Link to a PDF of your resume/CV from the About widget.
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+# - icon: cv
+#   icon_pack: ai
+#   link: files/cv.pdf
+
+# Enter email to display Gravatar (if Gravatar enabled in Config)
+email: 'ksl@jbnu.ac.kr'
+
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 
-# Role/position/tagline
-role: Student
+# Organizational groups that you belong to (for People widget)
+#   Set this to `[]` or comment out if you are not using People widget.
+user_groups:
+  - admin
 
-# Organizations/Affiliations to display in Biography blox
-organizations:
-  - name: 전북대학교 통계학과
-    url: https://stat.jbnu.ac.kr/
-
-# Social network links
-# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
-profiles:
-  - icon: at-symbol
-    url: 'mailto:rkdrjsdn1000@naver.com'
-    label: E-mail Me
-  - icon: brands/instagram
-    url: https://www.instagram.com/_gunn__oo__
-  - icon: brands/github
-    url: https://github.com/gumwoo
-  - icon: at-symbol
-    url: https://velog.io/@_gunnn_oo__
-    label: Velog
-  - icon: at-symbol
-    url: https://blog.naver.com/gunnn___
-    label: Naver Blog
-
-interests:
-  - Backend Development
-  - AI
-
-education:
-  - area: 통계학, 컴퓨터 공학
-    institution: 전북대학교
-    date_start: 2020-03-02
-# Skills
-# Add your own SVG icons to `assets/media/icons/`
-skills:
-  - name: 기술스택
-    items:
-      - name: 파이썬
-        description: ''
-        percent: 80
-        icon: code-bracket
-      - name: R
-        description: ''
-        percent: 70
-        icon: code-bracket
-      - name: 자바
-        description: ''
-        percent: 65
-        icon: code-bracket
-      - name: 자바스크립트
-        description: ''
-        percent: 60
-        icon: code-bracket
-      - name: HTML/CSS
-        description: ''
-        percent: 70
-        icon: code-bracket
-      - name: SQL (Oracle)
-        description: ''
-        percent: 50
-        icon: circle-stack
-      - name: C/C++
-        description: ''
-        percent: 55
-        icon: code-bracket
-      - name: 리액트
-        description: ''
-        percent: 50
-        icon: react
-      - name: 파이어베이스
-        description: ''
-        percent: 40
-        icon: firebase
-
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: 런닝
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: 드럼
-        description: ''
-        percent: 100
-        icon: drum
-      - name: 사진찍기
-        description: ''
-        percent: 80
-        icon: camera
-languages:
-  - name: 파이썬
-    percent: 80
-  - name: R
-    percent: 70
-  - name: 자바
-    percent: 65
-  - name: 자바스크립트
-    percent: 60
-  - name: HTML/CSS
-    percent: 70
-  - name: SQL (Oracle)
-    percent: 50
-  - name: C/C++
-    percent: 55
-  - name: 리액트
-    percent: 50
-  - name: 파이어베이스
-    percent: 40
-
-
-awards:
-  - title: 제 1회 오픈소스 아이디어 해커톤 최우수상
-    url: ''
-    date: '2023-12-03'
-    awarder: 전북대학교
-    icon: ''
-    summary: |
-      오픈소스 기반 프로젝트에서 창의적인 아이디어를 제시하여 팀과 함께 최우수상을 수상하였습니다.
-
-  - title: SDGs(지속가능한 발전 목표) 프레젠테이션 우수상
-    url: ''
-    date: '2023-12-21'
-    awarder: 전북대학교
-    icon: ''
-    summary: |
-      지속가능한 발전 목표에 대한 주제를 가지고 발표하여 우수한 평가를 받아 우수상을 수상하였습니다.
-
-  - title: 비교과 프로그램 개발 공모전 우수상
-    url: ''
-    date: '2024-08-05'
-    awarder: 전북대학교
-    icon: ''
-    summary: |
-      학업 외 비교과 프로그램 개발 공모전에서 독창적인 아이디어를 통해 우수상을 수상하였습니다.
-
-certifications:
-  - title: SQLD (SQL Developer)
-    date: '2022-11-15'
-    icon: database
-  - title: 리눅스 마스터 2급
-    date: '2021-06-20'
-    icon: linux
 
 ---
- <!-- About Me -->
 
-<div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
-    <h1>안녕하세요!</h1>
-    <h2>제 이름은 강건우입니다.</h2>
-    <h2>소통하는 개발자가 되고 싶습니다.</h2>
-  </div>
-  <img src="/images/avatar1.png" alt="강건우" style="border-radius: 30%; width: 250px; height: auto; float: right;">
-
-</div>
-
+Fine-Tuning Deep Learning Network for Multi-Domain and Multi-Task Applications이라는 제목의 논문으로 2023년 대구경북과학기술원에서 통합 석사 및 박사 학위를 받았습니다. 2024년에 전북대학교 컴퓨터인공지능학부에 조교수 position으로 임명받고 현재까지 근무하고 있습니다. 연구 분야는 연합학습 및 표현 학습을 사용한 medical 도메인에서의 딥 러닝 기법, 도메인 적응 및 테스트 타임 학습과 같은 딥 러닝 기반 컴퓨터 비전 응용, 이미지 처리를 포함하고 있으며, AI의 이론부터 다양한 특성화 분야의 어플리케이션까지 넓은 범위를 포함하고 있습니다. 
