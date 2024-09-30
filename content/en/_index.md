@@ -6,14 +6,20 @@ type: landing
 
 sections:
 
+  - block: about.biography
+    id: about
+    content:
+      title: ''
+      username: 강건우
+
   - block: features
     content:
-      title: <span style="font-size:70%">About me </span>
-      text: <br><span style="font-size:125%">안녕하세요! 제 이름은 강건우입니다.<br>소통을 잘하는 개발자가 되고 싶습니다</span> <br><br>
+      title: <span style="font-size:70%">'📚 About me </span>
+      text: <br><span style="font-size:125%">전북대학교에서 통계학과 컴퓨터 공학을 복수전공 중입니다.<br>현재 학점은 4점대를 유지중이고, 데이터 분석, 프로그래밍, 알고리즘, 데이터베이스에 중점을 두고 공부하고 있으며,<br>이를 통해 백엔드 개발 및 인공지능에 대한 기초를 다지고 있습니다. <br>PTYHON, R, JAVASCRIPT를 사용하여 증권 데이터 분석과 웹 개발 관련 프로젝트를 수행한 경험이 있습니다.</span> <br><br>
       
         {{% cta cta_link="./field/" cta_text="See Research Field →" %}}
     design:
-      columns: '2'  # 두 개의 컬럼으로 설정
+      columns: '3'  # 두 개의 컬럼으로 설정
 
 
   - block: slider

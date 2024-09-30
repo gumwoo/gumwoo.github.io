@@ -1,8 +1,8 @@
 ---
-title: 정보처리기사
+title: 정보처리 기사
 
 # Listing view
-view: compact
+view: community/custom_card
 
 # Optional header image (relative to `assets/media/` folder).
 banner:
