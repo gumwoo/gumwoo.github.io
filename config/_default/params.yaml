@@ -40,8 +40,15 @@ header:
     show_language: true
     highlight_active_link: false
     show_day_night: true
+    show_logo: true
     logo:
-      text: "PORTFOLIO"
+      text: ""
+      # Logo filename in `assets/media/` folder
+      filename: "logo.svg"
+    button:
+      enable: true
+      text: "gumwoo"
+      url: "https://gumwoo.github.io/"
 
 # Site footer
 
