@@ -15,11 +15,11 @@ button, .btn {
   padding: 10px 20px;
   font-size: 16px;
   border-radius: 5px;
-  transition: background-color 0.3s ease; /* 호버 시 부드러운 전환 효과 */
+  transition: background-color 0.5s ease, color 0.5s ease; /* 호버 시 부드러운 전환 효과 */
 }
 
 /* 마우스를 버튼 위에 올렸을 때의 스타일 */
 button:hover, .btn:hover {
-  background-color: #2980b9; /* 호버 시 배경색 변경 */
+  background-color: #e74c3c; /* 호버 시 배경색 변경 */
   color: #ffffff; /* 텍스트 색상 변경 */
 }
