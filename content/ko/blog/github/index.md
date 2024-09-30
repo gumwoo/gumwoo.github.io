@@ -1,7 +1,7 @@
 ---
 title: 깃허브
 lang: ko
-date: 2023-10-26
+date: '2023-10-26'
 external_link: https://github.com/gumwoo
 ---
 

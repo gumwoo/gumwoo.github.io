@@ -20,5 +20,5 @@ sections:
       view: article-grid  # 그리드 뷰로 블로그 목록을 표시합니다.
       fill_image: false  # 이미지를 그리드에 꽉 차게 표시합니다.
       columns: 3  # 한 줄에 3개의 블로그 항목을 표시합니다.
-
+---
 
