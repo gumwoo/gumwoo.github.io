@@ -26,11 +26,9 @@ main:
     name: Research Fields
     url: field
     weight: 320
-
   # - name: Projects
   #   url: project
   #   weight: 400
-
 
   # - name: Coursework
   #   url: publication
@@ -38,7 +36,18 @@ main:
   - name: Blog
     url: blog
     weight: 500
-
+  - parent: Blog
+    name: velog
+    url: /blog/velog
+    weight: 510
+  - parent: Blog
+    name: github
+    url: /blog/github
+    weight: 520
+  - parent: Blog
+    name: naverblog
+    url: /blog/naverblog
+    weight: 530
   - name: Certification
     url: post
     weight: 600
