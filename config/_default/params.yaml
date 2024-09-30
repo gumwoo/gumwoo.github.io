@@ -42,12 +42,10 @@ header:
     show_day_night: true
     logo:
       text: "PORTFOLIO"
-  show_social: false  # 기본 소셜 아이콘 비활성화
 
 # Site footer
 
 footer:
-  show_social: false  # 기본 소셜 아이콘 비활성화
   copyright:
     notice: '© {year} Me. This work is licensed under {license}'
     license:
