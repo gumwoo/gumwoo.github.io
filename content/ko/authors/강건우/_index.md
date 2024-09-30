@@ -14,7 +14,7 @@ authors:
 superuser: true
 
 # Role/position
-role: 학생
+role: 학부생
 
 # Organizations/Affiliations
 organizations:
@@ -42,12 +42,12 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'rkdrjsdn1000@naver.com'
+    link: 'mailto:rkdrjsdn1000@naver.com'
   - icon: instagram
-    icon_pack: ai
+    icon_pack: fab
     link: https://www.instagram.com/_gunn__oo__
   - icon: github
-    icon_pack: ai
+    icon_pack: fab
     link: https://github.com/gumwoo
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -63,8 +63,6 @@ highlight_name: true
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups:
-  - Professor
 
 
 ---
@@ -77,4 +75,4 @@ user_groups:
 
 제가 진행한 프로젝트로는 급등주와 급락주의 과거 데이터 패턴 시각화를 통한 투자 전략, 위치 기반 공동 주문을 통한 배달비 공유 앱, 간단한 쇼핑몰 개발, 가구 업종 기업들의 데이터 분석을 통한 투자 종목 결정 등이 있습니다.
 
-현재 평균 학점은 4점대를 유지하고 있으며, 앞으로 백엔드 개발자로서 성장하고 싶다는 목표를 가지고 있습니다.
+현재 평균 학점은 4점대의 높은 학점을 유지하고 있으며, 앞으로 백엔드 개발자로서 성장하고 싶다는 목표를 가지고 있습니다.
