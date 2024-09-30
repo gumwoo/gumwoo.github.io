@@ -48,6 +48,8 @@ main:
     name: naverblog
     url: /blog/naverblog
     weight: 530
+
+    
   - name: Certification
     url: post
     weight: 600
