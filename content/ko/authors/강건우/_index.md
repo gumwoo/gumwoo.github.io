@@ -27,7 +27,7 @@ bio: 전북대학교에서 통계학과 컴퓨터 공학을 복수전공 중입�
 interests:
   - 인공지능 (AI)
   - 백엔드개발
-  - 컨텐츠 (Contents)
+  - 데이터 분석
 
 education:
   courses:
