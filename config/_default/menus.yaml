@@ -35,6 +35,9 @@ main:
   # - name: Coursework
   #   url: publication
   #   weight: 500
+  - name: Blog
+    url: blog
+    weight: 500
 
   - name: Certification
     url: post
