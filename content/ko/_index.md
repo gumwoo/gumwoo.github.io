@@ -6,6 +6,12 @@ type: landing
 
 sections:
 
+   - block: about.biography
+    id: about
+    content:
+      title: '강건우'
+      username: 강건우
+
   - block: features
     content:
       title: <span style="font-size:70%">About me </span>
