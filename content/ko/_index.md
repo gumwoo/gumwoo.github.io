@@ -135,7 +135,7 @@ sections:
           - event
     design:
       view: community/custom_card
-      columns: '2'
+      columns: '3'
 
   - block: collection
     content:
