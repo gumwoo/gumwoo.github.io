@@ -33,7 +33,7 @@ sections:
           image:
             filename: introduce.png
             filters:
-              brightness: 0.4
+              brightness: 0.6
           position: center
           color: '#000'
         link:
@@ -50,7 +50,7 @@ sections:
           image:
             filename: Ai.png
             filters:
-              brightness: 0.4
+              brightness: 0.6
           position: center
           color: '#000'
 
@@ -61,7 +61,7 @@ sections:
           image:
             filename: bigdata.png
             filters:
-              brightness: 0.4
+              brightness: 0.6
           position: center
           color: '#000'
 
@@ -72,7 +72,7 @@ sections:
           image:
             filename: development.png
             filters:
-              brightness: 0.4
+              brightness: 0.6
           position: center
           color: '#000'
 
