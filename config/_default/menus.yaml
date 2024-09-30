@@ -36,15 +36,15 @@ main:
   #   url: publication
   #   weight: 500
 
-  - name: Inform
+  - name: Certification
     url: post
     weight: 600
   - parent: Inform
-    name: Notifications
+    name: linux-master
     url: notification
     weight: 610
   - parent: Inform
-    name: News
+    name: SQLD
     url: post
     weight: 620
   - parent: Inform

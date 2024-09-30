@@ -1,5 +1,5 @@
 ---
-title: Recent & Upcoming Events
+title: 정보처리기사
 
 # Listing view
 view: compact
