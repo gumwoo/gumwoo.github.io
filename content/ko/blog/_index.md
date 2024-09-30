@@ -1,7 +1,6 @@
 ---
-title: 블로그
-lang: ko
-date: 2023-10-26
+title: '블로그'
+date: '2023-10-26'
 type: landing
 
 design:
