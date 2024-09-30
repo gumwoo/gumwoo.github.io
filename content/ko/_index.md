@@ -6,7 +6,7 @@ type: landing
 
 sections:
 
-   - block: about.biography
+  - block: about.biography
     id: about
     content:
       title: '강건우'
