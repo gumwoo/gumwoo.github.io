@@ -39,16 +39,16 @@ main:
   - name: Certification
     url: post
     weight: 600
-  - parent: Inform
+  - parent: Certification
     name: linux-master
     url: notification
     weight: 610
-  - parent: Inform
+  - parent: Certification
     name: SQLD
     url: post
     weight: 620
-  - parent: Inform
-    name: Event
+  - parent: Certification
+    name: Engineer Information Processing
     url: event
     weight: 630
 
