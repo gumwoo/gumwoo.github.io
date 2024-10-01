@@ -126,9 +126,5 @@ publications:
   date_format: January 2006
   citation_style: apa
 
-sitemap:
-  changefreq: "weekly"
-  priority: 0.5
 
-enableRobotsTXT: true
 
