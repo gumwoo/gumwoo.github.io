@@ -17,7 +17,9 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: ''
+    description: "전북대학교 학생 강건우의 포트폴리오 웹사이트"
+    keywords: "전북대, 강건우, 포트폴리오, 전북대 강건우"
+    author: "강건우"
     twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
@@ -123,3 +125,10 @@ extensions:
 publications:
   date_format: January 2006
   citation_style: apa
+
+sitemap:
+  changefreq: "weekly"
+  priority: 0.5
+
+enableRobotsTXT: true
+
