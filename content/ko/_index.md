@@ -155,7 +155,7 @@ sections:
 
   - block: collection
     content:
-      title: Latest Publications
+      title: project
       subtitle:
       text:
       count: 3
@@ -167,7 +167,7 @@ sections:
         tag: ''
       offset: 0
       order: desc
-      page_type: publication
+      page_type: field
     design:
       view: community/custom_card
       columns: '2'
@@ -179,7 +179,7 @@ sections:
       title:
       subtitle:
       text: |
-        {{% cta cta_link="./contact/" cta_text="Join team →" %}}
+        {{% cta cta_link="./contact/" cta_text="연락 방법 →" %}}
     design:
       columns: '1'
 ---
