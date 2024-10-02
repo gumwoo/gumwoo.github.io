@@ -23,7 +23,7 @@ main:
     url: publication
     weight: 310
   - parent: Research
-    name: Research Fields
+    name: project
     url: field
     weight: 320
   # - name: Projects
