@@ -9,98 +9,20 @@ sections:
   - block: features
     content:
       title: 
-      text: <br><span style="font-size:125%">MacsLAB에서는 의료, EMR, Vision, 항공, 국방 등 여러 분야에 AI 및 딥러닝을 활용한 연구를 수행하고 있으며, 의료 수학 및 AI 기반 연구도 함께 수행하고 있습니다. 뿐만 아니라, 풀스택 개발 및 AI를 활용한 어플리케이션 개발 등 Development & Deploy하는 실용적인 분야에도 집중하고 있습니다.</span>
+      text: <br><span style="font-size:125%">전북대학교에서 통계학과 컴퓨터 공학을 복수전공 중입니다.<br> 현재 학점은 4점대를 유지중이고, 데이터 분석, 프로그래밍, 알고리즘, 데이터베이스에 중점을 두고 공부하고 있으며,<br>이를 통해 백엔드 개발 및 인공지능에 대한 기초를 다지고 있습니다.<br>PTYHON, R, JAVASCRIPT를 사용하여 증권 데이터 분석과 웹 개발 관련 프로젝트를 수행한 경험이 있습니다.</span>
 
   - block: slider
     content:
       slides:
 
-      - title: <span style="font-size:90%">AI</span>
-        content: <span style="font-size:90%">의료/항공우주/컨텐츠 등 특성화 분야에 적용 가능한 AI 기술 개발<span style="font-size:90%">
-        align: center
-        background:
-          image:
-            filename: Ai.png
-            filters:
-              brightness: 0.4
-          position: center
-          color: '#000'
-
-      - title: <span style="font-size:90%">Medical AI</span>
-        content: <span style="font-size:90%">의료AI를 통한 질병 진단 및 환경 개선</span>
-        align: center
-        background:
-          image:
-            filename: medical.jpg
-            filters:
-              brightness: 0.4
-          position: center
-          color: '#000'
-
-      - title: <span style="font-size:90%">Healthcare</span>
-        content: <span style="font-size:90%">의료 및 헬스케어 분야에 적용 가능한 AI 기술 개발</span>
-        align: center
-        background:
-          image:
-            filename: healthcare.jpg
-            filters:
-              brightness: 0.4
-          position: center
-          color: '#000'
-
-      - title: <span style="font-size:90%">Aerospace</span>
-        content: <span style="font-size:90%">항공우주에 적용 가능한 특성화 AI 기술 개발</span>
-        align: center
-        background:
-          image:
-            filename: aerospace.jpg
-            filters:
-              brightness: 0.4
-          position: center
-          color: '#000'
-
-      - title: <span style="font-size:90%">Contents AI</span>
-        content: <span style="font-size:90%">웹툰 및 컨텐츠 적용 가능한 특성화 AI 기술 개발</span>
-        align: center
-        background:
-          image:
-            filename: contents.jpg
-            filters:
-              brightness: 0.4
-          position: center
-          color: '#000'
-
-      - title: <span style="font-size:90%">Mathematics</span>
-        content: <span style="font-size:90%">AI와 관련된 수학 및 최적화 이론 연구</span>
-        align: center
-        background:
-          image:
-            filename: mathematics.jpg
-            filters:
-              brightness: 0.4
-          position: center
-          color: '#000'
-
-      - title: <span style="font-size:90%">Development</span>
-        content: <span style="font-size:90%">기반 기술을 활용한 Full-Stack 어플리케이션 개발</span>
-        align: center
-        background:
-          image:
-            filename: development.png
-            filters:
-              brightness: 0.4
-          position: center
-          color: '#000'
-
-
-      - title: <span style="font-size:90%">Recruit</span>
-        content: <span style="font-size:90%">Interested in MacsLAB?</span>
+      - title: <span style="font-size:70%">introduce</span>
+        content: <span style="font-size:70%">자기 소개 페이지로 이동</span>
         align: center
         background:
           image:
             filename: introduce.png
             filters:
-              brightness: 0.4
+              brightness: 0.6
           position: center
           color: '#000'
         link:
@@ -108,12 +30,46 @@ sections:
           icon_pack: fas
           text: <span style="font-size:60%">Join Us</span>
           text-color: '#000'
-          url: contact
+          url: author/강건우/
+
+      - title: <span style="font-size:70%">인공지능</span>
+        content: <span style="font-size:70%">파이썬을 활용한 AI 모델 개발<span style="font-size:70%">
+        align: center
+        background:
+          image:
+            filename: Ai.png
+            filters:
+              brightness: 0.6
+          position: center
+          color: '#000'
+
+      - title: <span style="font-size:70%">통계</span>
+        content: <span style="font-size:70%">파이썬과 R을 활용한 통계 데이터 분석</span>
+        align: center
+        background:
+          image:
+            filename: bigdata.png
+            filters:
+              brightness: 0.6
+          position: center
+          color: '#000'
+
+      - title: <span style="font-size:70%">개발</span>
+        content: <span style="font-size:70%">노드 기반  Full-Stack 어플리케이션 개발</span>
+        align: center
+        background:
+          image:
+            filename: development.png
+            filters:
+              brightness: 0.6
+          position: center
+          color: '#000'
 
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: '350px'
-      is_fullscreen: true
+      slide_width: '100px'
+      is_fullscreen: false
       # Automatically transition through slides?
       loop: true
       # Duration of transition between slides (in ms)
