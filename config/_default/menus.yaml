@@ -24,7 +24,7 @@ main:
     weight: 310
   - parent: Research
     name: project
-    url: field
+    url: project
     weight: 320
   # - name: Projects
   #   url: project
