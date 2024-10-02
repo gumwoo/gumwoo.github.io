@@ -20,6 +20,7 @@ marketing:
     description: "전북대학교 학생 강건우의 포트폴리오 웹사이트"
     keywords: "전북대, 강건우, 포트폴리오, 전북대 강건우"
     author: "강건우"
+    image: "icon.jpg"
     twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
