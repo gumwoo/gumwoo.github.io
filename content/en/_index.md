@@ -1,6 +1,8 @@
 ---
 # Leave the homepage title empty to use the site title
-title:
+title: "전북대 강건우"
+description: "전북대학교에서 공부 중인 강건우의 포트폴리오 페이지입니다."
+keywords: "전북대, 강건우, 전북대 강건우포트폴리오"
 date: 2024-03-25
 type: landing
 
@@ -14,10 +16,10 @@ sections:
 
   - block: features
     content:
-      title: <span style="font-size:70%">📚 About me </span>
+      title: <span style="font-size:70%">📚 자기소개 요약 </span>
       text: <br><span style="font-size:125%">전북대학교에서 통계학과 컴퓨터 공학을 복수전공 중입니다.<br>현재 학점은 4점대를 유지중이고, 데이터 분석, 프로그래밍, 알고리즘, 데이터베이스에 중점을 두고 공부하고 있으며,<br>이를 통해 백엔드 개발 및 인공지능에 대한 기초를 다지고 있습니다. <br>PTYHON, R, JAVASCRIPT를 사용하여 증권 데이터 분석과 웹 개발 관련 프로젝트를 수행한 경험이 있습니다.</span> <br><br>
       
-        {{% cta cta_link="./field/" cta_text="See Research Field →" %}}
+        {{% cta cta_link="./field/" cta_text="프로젝트 확인 →" %}}
     design:
       columns: '3'
 
@@ -155,7 +157,7 @@ sections:
 
   - block: collection
     content:
-      title: Latest Publications
+      title: project
       subtitle:
       text:
       count: 3
@@ -167,7 +169,7 @@ sections:
         tag: ''
       offset: 0
       order: desc
-      page_type: publication
+      page_type: field
     design:
       view: community/custom_card
       columns: '2'
@@ -179,7 +181,7 @@ sections:
       title:
       subtitle:
       text: |
-        {{% cta cta_link="./contact/" cta_text="Join team →" %}}
+        {{% cta cta_link="./contact/" cta_text="연락 방법 →" %}}
     design:
       columns: '1'
 ---
