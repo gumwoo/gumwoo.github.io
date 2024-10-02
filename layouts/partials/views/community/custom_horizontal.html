@@ -20,19 +20,20 @@
 
 {{ $resource := partial "blox-core/functions/get_featured_image.html" $item }}
 
-<div class="horizontal-card" style="display: flex; align-items: center; margin-bottom: 20px;">
-  <div class="horizontal-card-image" style="flex: 1; margin-right: 20px;">
+<!-- Horizontal Card Style -->
+<div class="horizontal-card" style="display: flex; align-items: flex-start; margin-bottom: 20px; padding: 15px; border: 1px solid #ccc; border-radius: 8px; box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);">
+  <div class="horizontal-card-image" style="flex: 1; max-width: 40%; margin-right: 20px;">
     {{ with $resource }}
     {{ $image := .Resize "350x" }}
     {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
     <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>
-      <img src="{{ $image.RelPermalink }}" alt="{{ $item.Title }}" style="width: 100%; height: auto;">
+      <img src="{{ $image.RelPermalink }}" alt="{{ $item.Title }}" style="width: 100%; height: auto; object-fit: cover; border-radius: 8px;">
     </a>
     {{ end }}
   </div>
 
   <div class="horizontal-card-content" style="flex: 2;">
-    <h4><a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{ $item.Title | markdownify | emojify }}</a></h4>
+    <h4 style="margin-top: 0;"><a href="{{ $link }}" {{ $target | safeHTMLAttr }} style="color: #333; text-decoration: none;">{{ $item.Title | markdownify | emojify }}</a></h4>
 
     {{ with $summary }}
     <p>{{ . }}</p>

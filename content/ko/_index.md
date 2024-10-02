@@ -152,7 +152,7 @@ sections:
         folders:
           - blog  # blog 폴더에서 콘텐츠를 불러옵니다.
     design:
-      view: community/compact_card
+      view: community/custom_compact
       columns: '2'
 
   - block: collection
@@ -171,7 +171,7 @@ sections:
       order: desc
       page_type: project
     design:
-      view: community/custom_card
+      view: community/custom_horizontal
       columns: '2'
     advanced:
       css_style: "text-align: center;"
