@@ -4,7 +4,7 @@ date: 2023-09-25
 type: landing
 banner:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/)'
-  image: 'contacts.jpg'
+  image: 'contact.jpg'
 
 sections:
   - block: markdown
