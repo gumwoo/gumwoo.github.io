@@ -1,7 +1,9 @@
 ---
 # Display name
 title: 강건우
-
+banner:
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/)'
+  image: 'hello.jpg'
 # Full Name (for SEO)
 first_name: Gunwoo
 last_name: Kang
