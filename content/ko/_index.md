@@ -152,7 +152,7 @@ sections:
         folders:
           - blog  # blog 폴더에서 콘텐츠를 불러옵니다.
     design:
-      view: conpact
+      view: community/compact_card
       columns: '2'
 
   - block: collection
