@@ -169,7 +169,7 @@ sections:
         tag: ''
       offset: 0
       order: desc
-      page_type: field
+      page_type: project
     design:
       view: community/custom_card
       columns: '2'
