@@ -2,8 +2,9 @@
 title: 연락처
 date: 2023-09-25
 type: landing
-lang: ko
-
+banner:
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/)'
+  image: 'contact.jpg'
 sections:
   - block: markdown
     content:
