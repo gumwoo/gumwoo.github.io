@@ -1,6 +1,7 @@
 ---
 title: 배달조각, 위치 기반 배달비 절감 애플리케이션
 date: 2023-12-01
+url_pdf:/workspaces/gumwoo.github.io/content/ko/project/02-Healthcare/배달조각.pdf
 ---
 
 
