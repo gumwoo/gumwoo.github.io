@@ -3,7 +3,7 @@ title: Activity-Awards
 type: landing
 
 sections:
-  - block: accomplishments
+  - block: resume-awards
     content:
       title: 경력 및 수상 내역
       subtitle: '나의 경력과 수상 내역'
