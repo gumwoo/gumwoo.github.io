@@ -31,3 +31,14 @@ button:hover, .btn:hover {
 .justify-text {
   text-align: justify;
 }
+
+// 페이지 전체 배경색 설정
+body {
+  background-color: #0056b3; /* 배경색 설정 */
+}
+
+// 특정 섹션 배경색 설정 (예: main content)
+.main-content {
+  background-color: #ffcc00; /* 섹션 배경색 설정 */
+}
+
