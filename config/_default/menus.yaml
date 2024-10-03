@@ -3,70 +3,122 @@
 #     desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in.
 
-main:
-  # - name: Home
-  #   url: /
-  #   weight: 1
-  - name: About
-    url: about
-    weight: 100
+languages:
+  ko:
+    menu:
+      main:
+        - name: About
+          url: about
+          weight: 100
 
-  - name: introduction
-    url: /author/강건우/
-    weight: 200
+        - name: introduction
+          url: /author/강건우/
+          weight: 200
 
-  - name: Research
-    url: publication
-    weight: 300
-  - parent: Research
-    name: Publications
-    url: publication
-    weight: 310
-  - parent: Research
-    name: project
-    url: project
-    weight: 320
-  # - name: Projects
-  #   url: project
-  #   weight: 400
+        - name: Research
+          url: publication
+          weight: 300
+        - parent: Research
+          name: Publications
+          url: publication
+          weight: 310
+        - parent: Research
+          name: project
+          url: project
+          weight: 320
 
-  # - name: Coursework
-  #   url: publication
-  #   weight: 500
-  - name: Blog
-    url: blog
-    weight: 500
-  - parent: Blog
-    name: velog
-    url: /blog/velog
-    weight: 510
-  - parent: Blog
-    name: github
-    url: /blog/github
-    weight: 520
-  - parent: Blog
-    name: naverblog
-    url: /blog/naverblog
-    weight: 530
+        - name: Blog
+          url: blog
+          weight: 500
+        - parent: Blog
+          name: velog
+          url: /blog/velog
+          weight: 510
+        - parent: Blog
+          name: github
+          url: /blog/github
+          weight: 520
+        - parent: Blog
+          name: naverblog
+          url: /blog/naverblog
+          weight: 530
 
-    
-  - name: Certification
-    url: post
-    weight: 600
-  - parent: Certification
-    name: linux-master
-    url: notification
-    weight: 610
-  - parent: Certification
-    name: SQLD
-    url: post
-    weight: 620
-  - parent: Certification
-    name: Engineer Information Processing
-    url: event
-    weight: 630
+        - name: Certification
+          url: post
+          weight: 600
+        - parent: Certification
+          name: linux-master
+          url: notification
+          weight: 610
+        - parent: Certification
+          name: SQLD
+          url: post
+          weight: 620
+        - parent: Certification
+          name: Engineer Information Processing
+          url: event
+          weight: 630
 
+        - name: Contact
+          url: contact
+          weight: 700
 
-  - name: Contact
-    url: contact
-    weight: 700
+  en:
+    menu:
+      main:
+        - name: About
+          url: /en/about
+          weight: 100
+
+        - name: introduction
+          url: /en/author/kang-gun-woo/
+          weight: 200
+
+        - name: Research
+          url: /en/publication
+          weight: 300
+        - parent: Research
+          name: Publications
+          url: /en/publication
+          weight: 310
+        - parent: Research
+          name: project
+          url: /en/project
+          weight: 320
+
+        - name: Blog
+          url: /en/blog
+          weight: 500
+        - parent: Blog
+          name: velog
+          url: /en/blog/velog
+          weight: 510
+        - parent: Blog
+          name: github
+          url: /en/blog/github
+          weight: 520
+        - parent: Blog
+          name: naverblog
+          url: /en/blog/naverblog
+          weight: 530
+
+        - name: Certification
+          url: /en/post
+          weight: 600
+        - parent: Certification
+          name: linux-master
+          url: /en/notification
+          weight: 610
+        - parent: Certification
+          name: SQLD
+          url: /en/post
+          weight: 620
+        - parent: Certification
+          name: Engineer Information Processing
+          url: /en/event
+          weight: 630
+
+        - name: Contact
+          url: /en/contact
+          weight: 700
+
