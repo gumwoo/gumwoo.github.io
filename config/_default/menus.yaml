@@ -18,10 +18,14 @@ main:
   - name: Research
     url: publication
     weight: 300
+  - parent: Research
+    name: experience
+    url: experience
+    weight: 310
   # - parent: Research
   #   name: Publications
   #   url: publication
-    weight: 310
+    # weight: 310
   - parent: Research
     name: project
     url: project
