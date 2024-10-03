@@ -3,7 +3,7 @@ title: experience
 type: landing
 
 sections:
-  - block: features
+  - block: collection
     content:
       title: 경력 및 수상 내역
       text: ''
