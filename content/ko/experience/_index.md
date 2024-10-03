@@ -3,72 +3,32 @@ title: Activity-Awards
 type: landing
 
 sections:
-  - block: resume-awards
+  - block: markdown
     content:
       title: 경력 및 수상 내역
-      subtitle: '나의 경력과 수상 내역'
-      text: ''
-      items:
-        - title: 전북대학교 아이디어 해커톤 최우수상
-          certificate_url: ''
-          date_start: '01 Dec 2023'
-          date_end: '03 Dec 2023'
-          description: '배달조각이라는 안드로이드 스튜디오 기반 앱 제작'
-          icon: academic-cap
-          organization: 전북대학교
-          organization_url: ''
-
-        - title: AI 활용 학습 수기 공모전 장려상
-          certificate_url: ''
-          date_start: '27 Nov 2023'
-          date_end: '29 Dec 2023'
-          description: 'AI 기술을 활용한 학습 노하우 수기 제출'
-          icon: trophy
-          organization: AI 학습 지원 센터
-          organization_url: ''
-
-        - title: 지속가능발전목표 SDGs 프레젠테이션 대회 우수상
-          certificate_url: ''
-          date_start: '22 Dec 2023'
-          description: '지속가능발전목표(SDGs)에 관한 프레젠테이션 대회 우수상 수상'
-          icon: globe
-          organization: SDGs 대회 조직위원회
-          organization_url: ''
-
-        - title: 내가 만드는 비교과 프로그램 공모전 우수상
-          certificate_url: ''
-          date_start: '17 Jun 2024'
-          date_end: '10 Jul 2024'
-          description: '비교과 프로그램을 직접 개발하여 우수상 수상'
-          icon: award
-          organization: 비교과 프로그램 조직위원회
-          organization_url: ''
+      text: |
+        아래는 저의 경력과 수상 내역입니다.
+        * **전북대학교 아이디어 해커톤 최우수상** (2023년 12월 3일)
+          - 배달조각이라는 안드로이드 스튜디오 기반 앱 제작.
+        * **AI 활용 학습 수기 공모전 장려상** (2023년 11월 27일 - 2023년 12월 29일)
+          - AI 기술을 활용한 학습 노하우 수기 제출.
+        * **학습 꿀팁 공모전 장려상** (2023년 11월 27일 - 2023년 12월 29일)
+          - 효과적인 학습 전략을 공유.
+        * **지속가능발전목표 SDGs 프레젠테이션 대회 우수상** (2023년 12월 22일)
+          - 지속가능발전목표(SDGs)에 관한 프레젠테이션 대회 우수상 수상.
+        * **동계 빅데이터 캠프 이수** (2024년 1월 9일 - 2024년 1월 12일)
+          - 데이터 분석 및 활용 능력 강화 교육 이수.
+        * **창업 아이디어 메이커톤 베스트 피칭상** (2024년 2월 2일)
+          - 창업 아이디어를 제시하고 뛰어난 피칭으로 수상.
+        * **크몽 프리랜서 활동** (2024년 2월 1일 - 2024년 4월 15일)
+          - 크몽 플랫폼에서 프리랜서로 활동 (학점 관리 이슈로 중단).
+        * **비교과 프로그램 개발 공모전 우수상** (2024년 6월 17일 - 2024년 7월 10일)
+          - 비교과 프로그램을 직접 개발하여 우수상 수상.
+        * **전주 가맥지기 활동** (2024년 7월 1일 - 2024년 8월 31일)
+          - 전주 가맥지기로 다양한 활동 참여.
 
     design:
-      columns: '2'
-
-  - block: resume-skills
-    content:
-      title: 기술 스택
-      items:
-        - name: 파이썬
-          percent: 80
-        - name: R
-          percent: 70
-        - name: 자바
-          percent: 65
-        - name: 자바스크립트
-          percent: 60
-        - name: HTML/CSS
-          percent: 70
-        - name: SQL (Oracle)
-          percent: 50
-        - name: C/C++
-          percent: 55
-        - name: 리액트
-          percent: 50
-        - name: 파이어베이스
-          percent: 40
-    design:
-      show_skill_percentage: true
+      columns: '1'  # 리스트는 기본적으로 한 열로 표시
 ---
+
+
