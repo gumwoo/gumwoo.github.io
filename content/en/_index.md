@@ -152,7 +152,7 @@ sections:
         folders:
           - blog  # blog 폴더에서 콘텐츠를 불러옵니다.
     design:
-      view: compact
+      view: custom_compact
       columns: '2'
 
   - block: collection
@@ -160,7 +160,7 @@ sections:
       title: project
       subtitle:
       text:
-      count: 3
+      count: 4
       filters:
         author: ''
         category: ''
