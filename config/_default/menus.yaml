@@ -12,7 +12,7 @@ main:
     weight: 100
 
   - name: introduction
-    url: "{{ if eq .Site.Language.Lang 'en' }}/en/author/kang-gun-woo/{{ else }}/author/강건우/{{ end }}"
+    url: /author/강건우/
     weight: 200
 
   - name: Research
