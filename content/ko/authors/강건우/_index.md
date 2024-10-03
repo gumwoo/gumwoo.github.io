@@ -1,6 +1,7 @@
 ---
 # Display name
 title: 강건우
+slug: "강건우"
 banner:
   caption: ''
   image: ''
