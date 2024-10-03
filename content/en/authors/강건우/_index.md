@@ -1,6 +1,7 @@
 ---
 # Display name
 title: KANG GUN WOO
+slug: "강건우"
 banner:
   caption: ''
   image: ''
