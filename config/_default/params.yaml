@@ -10,6 +10,8 @@ appearance:
   theme_day: minimal
   font: native
   font_size: L
+  primary_color: "#0056b3"  # 테마의 주요 색상
+  secondary_color: "#ffcc00"  # 테마의 보조 색상
 
 
 marketing:
