@@ -9,14 +9,14 @@ sections:
   - block: features
     content:
       title: 
-      text: <br><span class="justify-text" style="font-size:125%">전북대학교에서 통계학과 컴퓨터 공학을 복수전공 중입니다.<br> 현재 학점은 4점대를 유지중이고, 데이터 분석, 프로그래밍, 알고리즘, 데이터베이스에 중점을 두고 공부하고 있으며,<br>이를 통해 백엔드 개발 및 인공지능에 대한 기초를 다지고 있습니다.<br>PTYHON, R, JAVASCRIPT를 사용하여 증권 데이터 분석과 웹 개발 관련 프로젝트를 수행한 경험이 있습니다.</span>
+      text: <br><span class="justify-text" style="font-size:125%">I am double majoring in Statistics and Computer Engineering at Chonbuk National University.<br> Currently, my grades are in the 4-point range, focusing my studies on data analysis, programming, algorithms, and databases.<br>Through this, I am building a foundation in backend development and artificial intelligence.<br>I have experience conducting securities data analysis and web development projects using Python, R, and JavaScript.</span>
 
   - block: slider
     content:
       slides:
 
       - title: <span style="font-size:70%">introduce</span>
-        content: <span style="font-size:70%">자기 소개 페이지로 이동</span>
+        content: <span style="font-size:70%">Go to the Introduction page</span>
         align: center
         background:
           image:
@@ -28,12 +28,12 @@ sections:
         link:
           icon: user
           icon_pack: fas
-          text: <span style="font-size:60%">Join Us</span>
+          text: <span style="font-size:60%">introduce</span>
           text-color: '#000'
           url: author/강건우/
 
-      - title: <span style="font-size:70%">인공지능</span>
-        content: <span style="font-size:70%">파이썬을 활용한 AI 모델 개발<span style="font-size:70%">
+      - title: <span style="font-size:70%">AI</span>
+        content: <span style="font-size:70%">AI Model Development Using Python<span style="font-size:70%">
         align: center
         background:
           image:
@@ -43,8 +43,8 @@ sections:
           position: center
           color: '#000'
 
-      - title: <span style="font-size:70%">통계</span>
-        content: <span style="font-size:70%">파이썬과 R을 활용한 통계 데이터 분석</span>
+      - title: <span style="font-size:70%">statistic</span>
+        content: <span style="font-size:70%">Statistical Data Analysis Using Python and R</span>
         align: center
         background:
           image:
@@ -54,8 +54,8 @@ sections:
           position: center
           color: '#000'
 
-      - title: <span style="font-size:70%">개발</span>
-        content: <span style="font-size:70%">노드 기반  Full-Stack 어플리케이션 개발</span>
+      - title: <span style="font-size:70%">development</span>
+        content: <span style="font-size:70%">Node-based Full-Stack Application Development</span>
         align: center
         background:
           image:

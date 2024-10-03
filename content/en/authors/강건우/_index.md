@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 강건우
+title: KANG GUN WOO
 banner:
   caption: ''
   image: ''
@@ -16,7 +16,7 @@ authors:
 superuser: true
 
 # Role/position
-role: 학부생
+role: student
 
 # Organizations/Affiliations
 organizations:
@@ -24,17 +24,17 @@ organizations:
     url: 'https://stat.jbnu.ac.kr/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: <span class="justify-text">전북대학교에서 통계학과 컴퓨터 공학을 복수전공 중입니다. 현재 학점은 4점대를 유지중이고, 데이터 분석, 프로그래밍, 알고리즘, 데이터베이스에 중점을 두고 공부하고 있으며, 이를 통해 백엔드 개발 및 인공지능에 대한 기초를 다지고 있습니다. PTYHON, R, JAVASCRIPT를 사용하여 증권 데이터 분석과 웹 개발 관련 프로젝트를 수행한 경험이 있습니다.</span>
+bio: <br><span class="justify-text" style="font-size:125%">I am double majoring in Statistics and Computer Engineering at Chonbuk National University.<br> Currently, my grades are in the 4-point range, focusing my studies on data analysis, programming, algorithms, and databases.<br>Through this, I am building a foundation in backend development and artificial intelligence.<br>I have experience conducting securities data analysis and web development projects using Python, R, and JavaScript.</span>
 
 interests:
-  - 인공지능 (AI)
-  - 백엔드개발
-  - 데이터 분석
+  - Artificial Intelligence
+  - Backend Development
+  - Data Analysis
 
 education:
   courses:
-    - course: 통계학 & 컴퓨터공학
-      institution: 전북대학교 (JBNU)
+    - course: Statistics & Computer Engineering
+      institution: Chonbuk National University (JBNU)
       year: "2020 - Present"
 
 # Social/Academic Networking
@@ -69,12 +69,12 @@ highlight_name: true
 
 ---
 
-<span class="justify-text">2020년에 전북대학교 통계학과에 입학하여 2022년부터 컴퓨터공학을 복수 전공하고 있습니다. 학업 중에도 다양한 프로젝트와 공모전에 적극 참여하였습니다.
+<span class="justify-text">I enrolled in the Department of Statistics at Chonbuk National University in 2020 and have been double majoring in Computer Engineering since 2022. Throughout my studies, I have actively participated in various projects and competitions.
 
-2023년 12월에는 제1회 오픈소스 소프트웨어 아이디어 해커톤에서 "배달 조각"이라는 앱과 웹 서비스를 개발해 최우수상을 수상하였습니다. 또한, "대한민국의 삼림 보호"라는 주제로 AI 기반의 삼림 보호 활용 방안을 발표하여 SDGs(지속 가능한 발전) 프레젠테이션 대회에서 우수상을 수상했습니다.
+In December 2023, I developed an app and web service called "Delivery Pieces" at the first Open Source Software Idea Hackathon, earning the Grand Prize. Additionally, I presented AI-based forest protection measures under the theme "Forest Protection in South Korea," which won an Excellence Award at the SDGs (Sustainable Development Goals) Presentation Competition.
 
-올해 6월에는 AI 기반 중장년층 금융 건강 플랫폼이라는 주제로 하나 그룹에서 진행한 하나 파워 온 프로젝트에 참여했으며, 최근에는 교내에서 진행한 비교과 프로그램 개발 공모전에서 우수상을 수상하였습니다.
+In June of this year, I participated in the Hana Power On project conducted by Hana Group, focusing on an AI-based financial health platform for middle-aged and older adults. Recently, I received an Excellence Award at a campus non-curricular program development competition.
 
-제가 진행한 프로젝트로는 급등주와 급락주의 과거 데이터 패턴 시각화를 통한 투자 전략, 위치 기반 공동 주문을 통한 배달비 공유 앱, 간단한 쇼핑몰 개발, 가구 업종 기업들의 데이터 분석을 통한 투자 종목 결정 등이 있습니다.
+Projects I have undertaken include investment strategies through visualization of data patterns in the past of surge and plunge stocks, delivery cost sharing apps through location-based joint orders, simple shopping mall development, and investment stocks decisions through data analysis by companies in the furniture industry.
 
-현재 평균 학점은 4점대의 높은 학점을 유지하고 있으며, 앞으로 백엔드 개발자로서 성장하고 싶다는 목표를 가지고 있습니다.</span>
+Currently, the average credit remains high in the 4-point range, with the goal of growing as a back-end developer in the future.</span>

@@ -1,5 +1,5 @@
 ---
-title: 연락처
+title: contact
 date: 2023-09-25
 type: landing
 banner:
@@ -12,11 +12,11 @@ sections:
       title: 연락처
       text: |-
         <div style="text-align: justify;">
-        안녕하세요, 강건우입니다. 문의 사항이 있으시면 아래 연락처로 연락해주세요.
+        Hello, I'm Kang gun-woo. If you have any questions, please contact the contact information below.
 
         - **이메일**: [rkdrjsdn1000@naver.com](mailto:rkdrjsdn1000@naver.com)
         - **전화번호**: 010-7412-7378
-        - **주소**: 전라북도 전주시 백제대로 567
+        - **주소**: 567 Baekje-daero, Jeonju-si, Jeollabuk-do
         </div>
 
         ## 위치

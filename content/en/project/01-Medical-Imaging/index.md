@@ -1,20 +1,21 @@
 ---
-title: 가구 업종 기업의 재무 데이터 분석 및 시각화를 통한 투자 전략
+title: Investment Strategy Through Financial Data Analysis and Visualization of Furniture Industry Companies date
 date: 2024-05-16
 ---
 
 
-본 프로젝트는 가구 업종 기업들의 매출액과 순이익률 분석을 통해, 투자자들에게 효과적인 투자 전략을 제공하는 데 목적을 두었습니다. R을 활용하여 가구 업종에 속한 기업들의 재무 데이터를 수집하고, 이를 시각화하여 종목별 투자 가능성을 평가하였습니다.
+This project aims to provide effective investment strategies to investors by analyzing the sales and net profit margins of companies in the furniture industry. Using R, we collected the financial data of companies belonging to the furniture sector and visualized it to assess the investment potential of each stock.
 
 <!--more-->
 
-기업 재무 데이터 분석: 다양한 가구 업종 기업들의 매출액, 순이익률, PER 등의 재무 지표를 비교 분석하여, 종목 간 차이를 파악하였습니다.
+Corporate Financial Data Analysis: Compared and analyzed various financial indicators such as sales, net profit margins, and PER of different companies in the furniture industry to identify differences between stocks.
 
-시각화: R의 ggplot2와 plotly 라이브러리를 사용하여, 매출액 및 순이익률 변화를 그래프로 시각화하고, 투자자들이 손쉽게 데이터를 해석할 수 있도록 돕습니다.
-종목 선정 기준 수립: 분석된 데이터를 바탕으로, 저평가된 기업을 발견하고 **PER(주가수익비율)**을 기준으로 좋은 투자 종목을 선정합니다.
+Visualization: Utilized R's ggplot2 and plotly libraries to graphically represent changes in sales and net profit margins, assisting investors in easily interpreting the data.
 
-프로젝트 주요 결과
+Establishing Stock Selection Criteria: Based on the analyzed data, identified undervalued companies and selected promising investment stocks using PER (Price-to-Earnings Ratio) as a criterion.
 
-매출액 및 순이익률 시각화: 가구 업종 기업들의 매출액과 순이익률 변화를 시각화한 결과, 퍼시스가 가장 안정적인 성장을 보였으며, 매출액과 순이익률 모두에서 긍정적인 성과를 기록했습니다.
-PER 분석: 퍼시스는 PER이 6.69배로, 다른 가구 업종 기업들에 비해 저평가된 상태로 나타났습니다. 이는 주가가 주당순이익 대비 낮게 평가되어 있음을 의미합니다.
-투자 가능성: 추가적으로 분석한 결과, 프로젝트 완성 시점인 2024년 5월 16일 기준 퍼시스의 주가는 38,900원이었으나, 한 달도 안 되어 최고가 55,900원을 기록하며 약 **43.76%**의 상승률을 보였습니다.
+Key Project Results
+
+Visualization of Sales and Net Profit Margins: The visualization of changes in sales and net profit margins of furniture industry companies revealed that Peris exhibited the most stable growth, recording positive performance in both sales and net profit margins.
+PER Analysis: Peris had a PER of 6.69x, indicating that it was undervalued compared to other companies in the furniture industry. This means that its stock price is evaluated lower relative to its earnings per share.
+Investment Potential: Further analysis showed that as of the project completion date on May 16, 2024, Peris's stock price was KRW 38,900. Within less than a month, it reached a peak of KRW 55,900, demonstrating an approximate 43.76% increase in value.

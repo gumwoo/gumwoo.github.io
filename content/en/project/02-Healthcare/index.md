@@ -1,30 +1,34 @@
 ---
-title: 배달조각, 위치 기반 배달비 절감 애플리케이션
+title: Delivery Pieces, Location-Based Delivery Fee Reduction Application
 date: 2023-12-01
 url_pdf: https://gumwoo.github.io/project/02-healthcare/%EB%B0%B0%EB%8B%AC%EC%A1%B0%EA%B0%81.pdf
 ---
 
 
-배달조각은 위치 기반의 공동 주문 시스템을 활용하여 배달비 절감을 목표로 하는 애플리케이션입니다. 사용자는 자신이 주문하고자 하는 음식을 다른 사람들과 공유하여 배달비를 나누어 부담하는 방식으로, 비용 절감뿐만 아니라 효율적인 배달을 경험할 수 있습니다.
+**Delivery Pieces** is an application aimed at reducing delivery fees through a location-based group ordering system. Users can share the cost of delivery by pooling their orders with others who are ordering the same food, allowing for cost savings and more efficient deliveries.
 
 <!--more-->
 
-프로젝트 주요 기능 및 특징
+Key Features and Characteristics of the Project
 
-위치 기반 배달비 공유 시스템: 사용자는 자신이 주문할 음식을 입력한 후, 인근 지역에서 동일한 음식을 주문하려는 사람들과 배달비를 나눌 수 있습니다.
+Location-Based Delivery Fee Sharing System: Users enter the food they wish to order and share the delivery fee with others in the nearby area who are ordering the same items.
 
-사용자 맞춤형 추천: 사용자의 주문 기록과 위치 데이터를 기반으로 맞춤형 배달 추천 서비스를 제공합니다.
-실시간 참여자 추적: 배달 주문을 생성하면, 실시간으로 주변 참여자를 추적하고 배달 진행 상황을 확인할 수 있습니다.
+Personalized Recommendations: Provides customized delivery recommendations based on users' order history and location data.
 
-사용된 주요 기술
-GPS 기반 위치 추적: 사용자 위치 데이터를 활용하여, 주변의 다른 사용자들과 빠르게 연결될 수 있는 실시간 위치 추적 시스템.
+Real-Time Participant Tracking: When a delivery order is created, the system tracks nearby participants in real-time and allows users to monitor the delivery progress.
 
-비용 공유 알고리즘: 주문 비용과 배달비를 나누어 계산하는 알고리즘으로, 배달비 절감을 극대화합니다.
-사용자 맞춤형 추천 알고리즘: 머신러닝 기반으로 사용자의 과거 주문 데이터를 분석하여 맞춤형 배달 메뉴 추천을 제공합니다.
+Technologies Used
+GPS-Based Location Tracking: Utilizes user location data to quickly connect with other nearby users through a real-time location tracking system.
 
-프로젝트 기대 효과
-배달비 절감: 배달비를 여러 사용자 간에 분배함으로써, 단일 사용자 대비 최소 50% 이상의 배달비 절감을 기대할 수 있습니다.
-효율적인 배달 시스템: 다수의 사용자가 한 번에 주문을 하게 되면서 배달 효율이 향상되고, 배달 대기 시간이 줄어듭니다.
-환경 보호: 배달 횟수를 줄임으로써 탄소 배출을 감소시키고, 지속 가능한 배달 서비스를 제공합니다.
+Cost Sharing Algorithm: An algorithm that calculates the shared delivery fee by dividing the order cost among users, maximizing delivery fee reduction.
 
-이 프로젝트는 제1회 오픈소스 소프트웨어 아이디어 해커톤에서 최우수상을 수상했습니다.
+Personalized Recommendation Algorithm: Employs machine learning to analyze users' past order data and provide tailored delivery menu recommendations.
+
+Expected Project Outcomes
+Delivery Fee Reduction: By distributing the delivery fee among multiple users, it is expected to reduce the delivery cost by at least 50% compared to individual orders.
+
+Efficient Delivery System: With multiple users placing orders simultaneously, delivery efficiency is enhanced, and waiting times are reduced.
+
+Environmental Protection: Reducing the number of delivery trips decreases carbon emissions, promoting a sustainable delivery service.
+
+This project won the Grand Prize at the First Open Source Software Idea Hackathon.

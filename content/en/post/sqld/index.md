@@ -1,17 +1,17 @@
 ---
-title: SQLD자격증
+title: SQLD Certification
 date: 2024-08-24
 ---
 
-SQLD(SQL 개발자) 자격증은 데이터베이스 설계와 SQL 활용 능력을 검증하는 자격증으로, 데이터베이스 전문가를 꿈꾸는 사람들에게 필수적인 자격 중 하나입니다.
+SQLD (SQL Developer) Certification is a credential that validates database design and SQL utilization skills, essential for those aspiring to become database professionals.
 
 <!--more-->
 <div style="text-align: justify;">
-이 자격증은 데이터베이스 구조와 운영 원리를 이해하고, SQL을 통해 데이터를 효율적으로 관리하고 활용할 수 있는 능력을 중점으로 다룹니다. SQLD 자격증은 IT 및 데이터 관련 직군에서 중요한 가치를 가지며, 데이터베이스를 다루는 기본적인 역량을 평가합니다.
+This certification focuses on understanding database structures and operational principles, as well as the ability to efficiently manage and utilize data through SQL. The SQLD certification holds significant value in IT and data-related roles, assessing fundamental competencies in handling databases.
 
-시험은 다음과 같은 과목들을 포함하고 있습니다:
+The exam includes the following subjects:
 
-데이터 모델링: 데이터베이스 설계 원리와 데이터 모델링 기법.
-SQL 기본 및 활용: 데이터 조회, 조작, 트랜잭션 처리와 같은 SQL 문법과 활용 능력.
-데이터베이스 구축 및 운영: 데이터베이스 시스템의 설치, 유지보수, 성능 최적화 방법.
-저는 2024년 8월 24일에 SQLD 시험에 응시하여 합격하였고, 이를 통해 데이터베이스 설계와 SQL 활용 능력을 검증받았습니다. 이 자격증은 백엔드 개발자로서 데이터베이스 관리와 활용에 필요한 중요한 역량이 될 것입니다.</div>
+Data Modeling: Principles of database design and data modeling techniques.
+Basic and Applied SQL: SQL syntax and application skills such as data retrieval, manipulation, and transaction processing.
+Database Construction and Operation: Methods for installing, maintaining, and optimizing database systems.
+I took the SQLD exam on August 24, 2024, and passed it, thereby validating my skills in database design and SQL utilization. This certification is a crucial competency required for database management and utilization as a backend developer.</div>

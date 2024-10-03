@@ -1,18 +1,19 @@
 ---
-title: 리눅스 마스터 2급 자격증
+title: Linux Master Level 2
 date: 2024-09-07
 ---
 
-리눅스 마스터 2급은 리눅스 운영체제의 기초 및 중급 수준의 이해와 관리 능력을 인증하는 자격증입니다.
+Linux Master Level 2 is a certification that verifies the foundational and intermediate understanding and management skills of the Linux operating system.
 
 <!--more-->
 <div style="text-align: justify;">
-리눅스 마스터 2급 자격증은 리눅스 운영체제에 대한 숙련도를 증명하는 공인된 자격증입니다. 이 자격증은 리눅스 시스템의 관리, 네트워크 설정, 보안에 대한 이해를 중점으로 다루며, IT, 시스템 관리, 네트워크 관리 분야에 진출하려는 사람들에게 매우 유용한 자격증입니다.
+The **Linux Master Level 2** certification is an accredited credential that demonstrates proficiency in the Linux operating system. This certification emphasizes the management of Linux systems, network configuration, and security, making it highly valuable for individuals aiming to enter IT, system administration, and network management fields.
 
-시험은 다음과 같은 여러 과목을 포함하고 있습니다:
+The exam includes the following subjects:
 
-리눅스 설치 및 관리: 리눅스 시스템의 설치, 설정, 유지 관리 방법에 대한 이해.
-쉘 및 명령어 사용: 쉘 명령어, 스크립트 작성, 파일 관리 능력.
-시스템 및 네트워크 관리: 사용자 관리, 파일 시스템, 네트워크 설정 및 시스템 서비스 관리.
-보안 및 유지보수: 방화벽 설정, 리눅스 시스템 보안, 시스템 무결성 보장.
-저는 2024년 9월 7일에 봤던 리눅스 마스터 2급 시험에 합격하였으며, 이를 통해 리눅스 시스템 관리에 대한 전문성을 더욱 강화할 수 있었습니다. 이 자격증은 백엔드 개발자로 나아가는 데 있어 중요한 역량이 될 것입니다.</div>
+Linux Installation and Management: Understanding methods for installing, configuring, and maintaining Linux systems.
+Shell and Command Usage: Proficiency in using shell commands, writing scripts, and managing files.
+System and Network Management: User management, file systems, network configuration, and system service management.
+Security and Maintenance: Firewall configuration, Linux system security, and ensuring system integrity.
+
+I passed the Linux Master Level 2 exam on September 7, 2024, which has further strengthened my expertise in Linux system administration. This certification is an important competency for advancing as a backend developer.</div>

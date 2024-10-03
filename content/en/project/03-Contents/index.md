@@ -1,10 +1,10 @@
 ---
-title: 웹서비스 설계 넷플릭스 클론코딩
+title: Netflix Clone Coding for Web Service Design
 date: 2024-10-02
 ---
 
-웹서비스 설계 과목에 2차과제 넷플릭스 클론코딩을 진행할 예정입니다.
+I am planning to undertake the second assignment for the Web Service Design course, which involves clone coding of Netflix.
 
 <!--more-->
 
-react,js,html,css를 사용할 예정입니다.
+I will be using React.js, HTML, and CSS.
