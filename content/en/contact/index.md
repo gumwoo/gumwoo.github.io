@@ -9,7 +9,7 @@ banner:
 sections:
   - block: markdown
     content:
-      title: 연락처
+      title: contact
       text: |-
         <div style="text-align: justify;">
         Hello, I'm Kang gun-woo. If you have any questions, please contact the contact information below.
