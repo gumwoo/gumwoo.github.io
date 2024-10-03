@@ -1,12 +1,17 @@
 ---
-title: experience
+title: 경력
 type: landing
 
+design:
+  # Section spacing
+  spacing: '5rem'
+
+
 sections:
-  - block: collection
+  - block: features
     content:
       title: 경력 및 수상 내역
-      text: ''
+      text: '제 경력들에 관한 내용입니다.'
       items:
         - name: 제 1회 오픈소스 아이디어 해커톤 최우수상
           description: 오픈소스 기반 프로젝트에서 창의적인 아이디어를 제시하여 팀과 함께 최우수상을 수상하였습니다.
@@ -28,7 +33,6 @@ sections:
       
     design:
       columns: '2'
-      view: community/custom_compact
 ---
 
 
