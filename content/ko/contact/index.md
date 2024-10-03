@@ -11,7 +11,7 @@ sections:
     content:
       title: 연락처
       text: |-
-        <div class="justify-text">
+        <div style="text-align: justify;">
         안녕하세요, 강건우입니다. 문의 사항이 있으시면 아래 연락처로 연락해주세요.
 
         - **이메일**: [rkdrjsdn1000@naver.com](mailto:rkdrjsdn1000@naver.com)
