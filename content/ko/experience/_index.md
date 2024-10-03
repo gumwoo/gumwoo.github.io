@@ -8,7 +8,7 @@ design:
 
 
 sections:
-  - block: features
+  - block: accomplishments
     content:
       title: 경력 및 수상 내역
       text: '제 경력들에 관한 내용입니다.'
