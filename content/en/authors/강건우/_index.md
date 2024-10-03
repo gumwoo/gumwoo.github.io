@@ -20,7 +20,7 @@ role: student
 
 # Organizations/Affiliations
 organizations:
-  - name: 전북대학교 통계학과
+  - name: Department of Statistics, Chonbuk National University
     url: 'https://stat.jbnu.ac.kr/'
 
 # Short bio (displayed in user profile at end of posts)
