@@ -1,7 +1,7 @@
 ---
 title: Delivery Pieces, Location-Based Delivery Fee Reduction Application
 date: 2023-12-01
-url_pdf: https://gumwoo.github.io/project/02-healthcare/%EB%B0%B0%EB%8B%AC%EC%A1%B0%EA%B0%81.pdf
+url_pdf: https://gumwoo.github.io/project/02-application/배달조각.pdf
 ---
 
 

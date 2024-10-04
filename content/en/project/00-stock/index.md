@@ -1,7 +1,7 @@
 ---
 title: Investment Strategy Through Visualization of Historical Data Patterns of Rapidly Rising and Falling Stocks date
 date: 2024-03-31
-url_pdf: https://gumwoo.github.io/project/00-ai/급등주와급락주의-과거-데이터-패턴-시각화를-통한-투자전략.pdf
+url_pdf: https://gumwoo.github.io/project/00-stock/급등주와급락주의-과거-데이터-패턴-시각화를-통한-투자전략.pdf
 ---
 This project aims to establish an efficient investment strategy by analyzing the historical data patterns of rapidly rising and falling stocks. Rapidly rising and falling stocks exhibit significant volatility in the stock market, allowing investors to experience high profits or losses. In this project, we utilized R to analyze the historical data of these volatile stocks and visualize them to provide strategic investment insights.
 
