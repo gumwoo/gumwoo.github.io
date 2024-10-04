@@ -181,7 +181,7 @@ sections:
       title:
       subtitle:
       text: |
-        {{% cta cta_link="./contact/" cta_text="연락 방법 →" %}}
+        {{% cta cta_link="./contact/" cta_text="Contact →" %}}
     design:
       columns: '1'
 ---
