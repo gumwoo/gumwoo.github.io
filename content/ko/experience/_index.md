@@ -1,10 +1,16 @@
 ---
 title: 경력
 type: landing
+# Listing view
+view: community/custom_compact
+banner:
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/)'
+  image: 'researchpaper.jpg'
 
 design:
   # Section spacing
   spacing: '5rem'
+  columns: '2'
 
 sections:
   - block: accomplishments
@@ -47,9 +53,6 @@ sections:
           description: 2023년 AI학습 수기 공모전에 참여하였습니다.
           date_start: '2023-11-27'
           date_end: '2023-12-28'
-
-    design:
-      columns: '2'
 ---
 
 
