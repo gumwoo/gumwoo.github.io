@@ -7,7 +7,7 @@ design:
   spacing: '5rem'
 
 sections:
-  - block: features
+  - block: accomplishments
     content:
       title: 경력 및 수상 내역
       text: ''
