@@ -142,7 +142,7 @@ sections:
   - block: collection
     content:
       id: blog-section
-      title: 블로그
+      title: blog
       subtitle: I share my learning records and projects across various platforms.
       text:
       count: 3  # 표시할 블로그 항목 수
