@@ -16,16 +16,12 @@ main:
     weight: 200
 
   - name: Research
-    url: publication
+    url: project
     weight: 300
   - parent: Research
     name: experience
     url: experience
     weight: 310
-  # - parent: Research
-  #   name: Publications
-  #   url: publication
-    # weight: 310
   - parent: Research
     name: project
     url: project
@@ -38,7 +34,7 @@ main:
   #   url: publication
   #   weight: 500
   - name: Blog
-    url: blog
+    url: velog
     weight: 500
   - parent: Blog
     name: velog

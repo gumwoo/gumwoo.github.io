@@ -1,13 +1,8 @@
 ---
 title: 경력
 type: landing
-# Listing view
-banner:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/)'
-  image: 'researchpaper.jpg'
 
 design:
-  # Section spacing
   spacing: '5rem'
   columns: '2'
 
