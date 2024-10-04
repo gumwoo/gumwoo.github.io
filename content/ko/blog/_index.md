@@ -23,5 +23,5 @@ sections:
           - blog  # blog 폴더에서 콘텐츠를 불러옵니다.
     design:
       view: compact
-      columns: '2'
-
+      columns: '2' 
+---
