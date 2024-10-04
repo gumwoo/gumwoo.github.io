@@ -34,7 +34,7 @@ main:
   #   url: publication
   #   weight: 500
   - name: Blog
-    url: velog
+    url: blog
     weight: 500
   - parent: Blog
     name: velog
