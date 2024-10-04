@@ -7,7 +7,7 @@ design:
   columns: '2'
 
 sections:
-  - block: accomplishments
+  - block: experience
     content:
       title: 경력 및 수상 내역
       text: ''
