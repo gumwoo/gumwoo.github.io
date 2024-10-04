@@ -7,7 +7,7 @@ design:
   columns: '2'
 
 sections:
-  - block: accomplishments
+  - block: experience
     content:
       title: Career and Awards
       text: ''
