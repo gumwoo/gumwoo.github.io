@@ -31,11 +31,6 @@ interests:
   - 백엔드개발
   - 데이터 분석
 
-hobby:
-  - 드럼
-  - 농구
-  - 드라이브
-
 education:
   courses:
     - course: 통계학 & 컴퓨터공학
