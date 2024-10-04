@@ -41,7 +41,7 @@ sections:
         link:
           icon: user
           icon_pack: fas
-          text: <span style="font-size:60%">Join Us</span>
+          text: <span style="font-size:60%">이동</span>
           text-color: '#000'
           url: author/강건우/
 
