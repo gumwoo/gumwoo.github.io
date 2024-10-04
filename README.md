@@ -1,48 +1,66 @@
-# [Hugo Research Group Theme](https://github.com/wowchemy/starter-hugo-research-group)
+# [강건우 소개 페이지](https://gumwoo.github.io/) ✨
 
-[![Screenshot](./preview.png)](https://hugoblox.com/hugo-themes/)
+[![Screenshot](./preview.png)](https://gumwoo.github.io/)
 
-The **Research Group Template** empowers your research group to easily create a beautiful website with a stunning homepage, news, academic publications, events, team profiles, and a contact form.
+이 프로젝트는 개인 웹사이트를 생성하고 관리하는 Hugo 기반의 정적 사이트입니다. **2024-2 WSD 1차 과제** - GitHub Pages로 개인 소개 웹사이트(포트폴리오) 만들기 프로젝트로 제작되었습니다.
 
-️**Trusted by 250,000+ researchers, educators, and students.** Highly customizable via the integrated **no-code, widget-based Wowchemy page builder**, making every site truly personalized ⭐⭐⭐⭐⭐
+Template: **Hugo Research Group Theme**을 메인으로 여러 테마를 섞어 저만의 개성있는 웹사이트를 만들었습니다.
 
-[![Get Started](https://img.shields.io/badge/-Get%20started-ff4655?style=for-the-badge)](https://hugoblox.com/hugo-themes/)
-[![Discord](https://img.shields.io/discord/722225264733716590?style=for-the-badge)](https://discord.com/channels/722225264733716590/742892432458252370/742895548159492138)  
-[![Twitter Follow](https://img.shields.io/twitter/follow/GetResearchDev?label=Follow%20on%20Twitter)](https://twitter.com/wowchemy)
+[![Get Started](https://img.shields.io/badge/-Get%20started-ff4655?style=for-the-badge)](https://gumwoo.github.io/)
 
-Easily write technical content with plain text Markdown, LaTeX math, diagrams, RMarkdown, or Jupyter, and import publications from BibTeX.
+## 프로젝트 개요 🚀
 
-[Check out the latest demo](https://research-group.netlify.app/) of what you'll get in less than 60 seconds, or [view the showcase](https://hugoblox.com/creators/).
+이 웹사이트는 **Hugo**와 **Wowchemy** 페이지 빌더를 사용하여 개발되었으며, 개인 포트폴리오, 연구 활동, 블로그 및 다양한 프로젝트를 소개하는 페이지로 구성되어 있습니다. **SEO 최적화** 및 **내부 검색 기능**을 포함하여 사용자 경험을 극대화하고, 웹사이트 방문자들이 필요한 정보를 쉽게 찾을 수 있도록 돕습니다.
 
-The integrated [**Wowchemy**](https://hugoblox.com) website builder and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
+[Check out the latest demo](https://gumwoo.github.io/) to see my portfolio in action. 🎉
 
-- 👉 [**Get Started**](https://hugoblox.com/hugo-themes/)
+## 주요 페이지 📄
+
+- **메인 페이지 (Home)** 🏠: 내 소개와 사진, 소속, 전공, 진로, 목표, 관심 분야를 포함하고 있으며, 자기소개 요약 및 관심 있는 분야를 슬라이더와 fab 아이콘으로 표현했습니다.
+- **소개 (About)** 📝: 내 소개 요약본과 관심 분야를 슬라이더로 간단하게 표현하였습니다.
+- **상세 소개 (Introduction)** 📚: 개인 정보, 학력, 전공, 진로 및 목표를 포함한 상세 소개를 제공합니다.
+- **경력 및 수상 내역 (Experience)** 🏆: 주요 경력 및 수상 내역을 볼 수 있습니다.
+- **프로젝트 (Projects)** 💻: 내가 수행했던 개발 및 데이터 분석 프로젝트를 정리한 페이지입니다.
+- **블로그 (Blog)** ✍️: 기술적인 글이나 프로젝트 경험을 공유하는 블로그 게시글을 포함하고 있으며, **Velog**, **Naver Blog**, **GitHub 블로그**로 구성되어 있습니다.
+- **자격증 (Certification)** 🎓: **Linux Master**, **SQLD**, **정보처리기사**를 포함한 자격증들을 소개합니다.
+- **연락처 (Contact)** 📬: 연락처 정보와 지도 위치를 제공합니다.
+- **다국어 지원** 🌍: 한국어와 영어를 모두 지원하여 방문자가 원하는 언어로 페이지를 탐색할 수 있습니다.
+- **어두운 테마 / 밝은 테마** 🌗: 방문자가 선호하는 테마로 사이트를 볼 수 있도록 다크 모드와 라이트 모드를 지원합니다.
+- **반응형 디자인** 📱: 다양한 기기(데스크탑, 태블릿, 모바일)에서 최적화된 사용자 경험을 제공합니다.
+
+## 기술 스택 ⚙️
+
+- **Hugo**: 빠르고 안정적인 정적 사이트 생성을 위한 프레임워크입니다.
+- **Wowchemy Page Builder**: 별도의 코드 작성 없이 위젯을 사용하여 페이지를 쉽게 구성할 수 있도록 돕는 빌더입니다.
+- **GitHub Pages**: 웹사이트 호스팅을 위한 GitHub의 무료 서비스입니다.
+
+## 주요 기능 🌟
+
+- 간편한 **Markdown** 작성 및 관리
+- **BibTeX**를 이용한 학술 출판물 자동 가져오기 📑
+- **SEO 최적화** 및 내부 검색 기능 포함 🔍
+- **반응형 디자인**으로 어디서든 보기 좋은 사이트 구성
+- **직관적인 위젯 기반 커스터마이즈**를 통한 사이트 구성
+
 - 📚 [View the **documentation**](https://docs.hugoblox.com/)
-- 💬 [Chat with the **Wowchemy research community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- ⬇️ **Automatically import citations from BibTeX** with the [Hugo Academic CLI](https://github.com/GetRD/academic-file-converter)
-- 🐦 Share your new site with the community: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=%23MadeWithWowchemy&src=typed_query)
-- 🗳 [Take the survey and help us improve #OpenSource](https://forms.gle/NioD9VhUg7PNmdCAA)
-- 🚀 [Contribute improvements](https://github.com/HugoBlox/hugo-blox-builder/blob/main/CONTRIBUTING.md) or [suggest improvements](https://github.com/HugoBlox/hugo-blox-builder/issues)
-- ⬆️ **Updating?** View the [Update Guide](https://docs.hugoblox.com/hugo-tutorials/update/) and [Release Notes](https://github.com/HugoBlox/hugo-blox-builder/releases)
+- 💬 [Chat with the **Wowchemy research community**](https://discord.gg/z8wNYzb)
 
-## We ask you, humbly, to support this open source movement
+## 기여 방법 🤝
 
-Today we ask you to defend the open source independence of the Wowchemy website builder and themes 🐧
+오픈 소스 프로젝트에 기여하거나 개선 사항을 제안하고 싶으시다면 이슈나 풀 리퀘스트를 제출해 주세요.
 
-We're an open source movement that depends on your support to stay online and thriving, but 99.9% of our creators don't give; they simply look the other way.
+- 🗳 [이슈 생성 및 개선 사항 제안하기](https://github.com/gumwoo/gumwoo.github.io/issues)
 
-### [❤️ Click here to become a GitHub Sponsor, unlocking awesome perks such as _exclusive academic templates and widgets_](https://github.com/sponsors/gcushen)
+## 감사의 말 🙏
 
-## Demo credits
+이 사이트는 **Wowchemy** 테마와 **Hugo**를 기반으로 제작되었습니다. 이를 통해 직관적인 웹사이트를 구축할 수 있었습니다. 감사합니다!
 
-Please replace the demo images with your own.
+---
 
-- [Female scientist](https://unsplash.com/photos/uVnRa6mOLOM)
-- [2 Coders](https://unsplash.com/photos/kwzWjTnDPLk)
-- [Cafe](https://unsplash.com/photos/RnDGGnMEOao)
-- Blog posts
-  - https://unsplash.com/photos/AndE50aaHn4
-  - https://unsplash.com/photos/OYzbqk2y26c
-- Avatars
-  - https://unsplash.com/photos/5yENNRbbat4
-  - https://unsplash.com/photos/WNoLnJo7tS8
+## 추가 정보 📝
+
+이 웹사이트는 **Wowchemy**와 **Hugo**를 활용해 제작되었습니다. CMS(또는 편집기)에서 사이트를 쉽게 편집하고, **GitHub** 또는 **Netlify**로 배포할 수 있습니다. 사이트의 모든 것을 위젯, 테마, 언어 팩을 사용하여 사용자 정의할 수 있습니다.
+
+- 👉 [**시작하기**](https://gumwoo.github.io/)
+- 📚 [**설명서 보기**](https://docs.hugoblox.com/)
+- 💬 [**Wowchemy 커뮤니티**](https://discord.gg/z8wNYzb)와 채팅하세요.
