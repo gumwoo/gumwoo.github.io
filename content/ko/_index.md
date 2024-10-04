@@ -13,11 +13,6 @@ sections:
     content:
       title: ''
       username: 강건우
-      custom_html: |
-        <div style="width:100%;height:0;padding-bottom:100%;position:relative;">
-          <iframe src="https://giphy.com/embed/HLB0nLA36GCCo6JuB5" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-        </div>
-        <p><a href="https://giphy.com/gifs/scaler-official-funny-cartoon-coding-HLB0nLA36GCCo6JuB5">via GIPHY</a></p>
 
   - block: features
     content:
