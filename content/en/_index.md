@@ -19,7 +19,6 @@ sections:
           filename: backg.jpg
           size: cover
           position: center
-          parallax: false
 
   - block: features
     content:
