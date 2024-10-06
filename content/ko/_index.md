@@ -29,7 +29,6 @@ sections:
     design:
       columns: '3'
 
-
   - block: slider
     content:
       slides:
