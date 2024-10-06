@@ -78,4 +78,4 @@ In June of this year, I participated in the Hana Power On project conducted by H
 
 Projects I have undertaken include investment strategies through visualization of data patterns in the past of surge and plunge stocks, delivery cost sharing apps through location-based joint orders, simple shopping mall development, and investment stocks decisions through data analysis by companies in the furniture industry.
 
-Currently, the average credit remains high in the 4-point range, with the goal of growing as a back-end developer in the future.</span>
+Hobbies include listening to music, playing drums, watching movies, and driving. Currently, the average credit remains high in the 4-point range, with the goal of growing as a back-end developer in the future.</span>

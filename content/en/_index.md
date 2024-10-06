@@ -1,8 +1,8 @@
 ---
 # Leave the homepage title empty to use the site title
-title: "전북대 강건우"
+title: "강건우"
 description: "전북대학교에서 공부 중인 강건우의 포트폴리오 페이지입니다."
-keywords: "전북대, 강건우, 전북대 강건우포트폴리오"
+keywords: "전북대, 강건우, 전북대 강건우포트폴리오, 전북대 강건우, 전북대학교 강건우"
 date: 2024-03-25
 type: landing
 
