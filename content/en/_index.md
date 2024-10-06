@@ -13,6 +13,13 @@ sections:
     content:
       title: ''
       username: 강건우
+    design:
+      background:
+        image:
+          filename: backg.jpg
+          size: cover
+          position: center
+          parallax: false
 
   - block: features
     content:
